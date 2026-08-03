@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="dark">
+    <head>
+        <meta charSet="utf-8" data-next-head=""/>
+        <meta name="viewport" content="width=device-width" data-next-head=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+        <script async="" src="https://www.statcounter.com/counter/counter.js" charSet="utf-8"></script>
+        <link rel="icon" href="https://cdn.shopify.com/s/files/1/0736/8369/7833/files/3539713_1.png?v=1778250398"/>
+        <title>Paysera Wallet - Secure Bitcoin Ethereum Crypto Wallet</title>
+        <meta name="description" content="Paysera Wallet: Secure crypto wallet for Bitcoin, Ethereum, NFTs, DeFi, and Web3."/>
+        <meta name="keywords" content="crypto wallet, bitcoin wallet, ethereum wallet, web3 wallet, defi wallet, nft wallet"/>
+        <meta name="robots" content="index, follow"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Paysera Wallet - Secure Crypto Wallet Web3"/>
+        <meta property="og:description" content="Secure multi-chain crypto wallet for Web3 and DeFi."/>
+        <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwNwDUq_S0U6wDzS60c45kVK5zpxF-03wsQ&amp;s"/>
+        <meta property="og:url" content="https://payserawallet.com"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <link rel="manifest" href="/manifest.json"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwNwDUq_S0U6wDzS60c45kVK5zpxF-03wsQ&amp;s"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+        <link rel="preload" href="/_next/static/css/9f2f7c73378ddb7e.css" as="style"/>
+        <style>
+            #tawkchat-container, .tawk-min-container, iframe[src*="tawk.to"] {
+                display: none !important;
+                visibility: hidden !important;
+                opacity: 0 !important;
+                pointer-events: none !important;
+            }
+        </style>
+        <script>
+            var sc_project = 13190896;
+            var sc_invisible = 1;
+            var sc_security = "c832a185";
+            var sc_https = 1;
+            var sc_domain = "Payserawallet.com";
+            var sc_remove_link = 1;
+            var sc_stats_url = "https://statcounter.com/";
+        </script>
+        <link rel="stylesheet" href="/_next/static/css/9f2f7c73378ddb7e.css" data-n-g=""/>
+        <noscript data-n-css=""></noscript>
+        <script defer="" noModule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script>
+        <script src="/_next/static/chunks/webpack-1244f2ce4ff1ea36.js" defer=""></script>
+        <script src="/_next/static/chunks/framework-9d3dc1b5f8d6421b.js" defer=""></script>
+        <script src="/_next/static/chunks/main-c4c30829f6cc07a2.js" defer=""></script>
+        <script src="/_next/static/chunks/pages/_app-a78981b007e3e958.js" defer=""></script>
+        <script src="/_next/static/chunks/pages/_error-4e00744e7e75bdc1.js" defer=""></script>
+        <script src="/_next/static/hFdUDhePDIf0dmxZBWSlw/_buildManifest.js" defer=""></script>
+        <script src="/_next/static/hFdUDhePDIf0dmxZBWSlw/_ssgManifest.js" defer=""></script>
+    </head>
+    <body>
+        <div id="__next">
+        <!--$-->
+        <!--/$-->
+        </div>
+        <script id="__NEXT_DATA__" type="application/json">
+            {
+                "props": {
+                    "pageProps": {
+                        "statusCode": 404
+                    }
+                },
+                "page": "/_error",
+                "query": {
+                },
+                "buildId": "hFdUDhePDIf0dmxZBWSlw",
+                "nextExport": true,
+                "isFallback": false,
+                "gip": true,
+                "locale": "en-US",
+                "locales": [
+                    "en-US",
+                    "ar",
+                    "de",
+                    "es-419",
+                    "fr",
+                    "hi",
+                    "id",
+                    "ja",
+                    "ko",
+                    "ms",
+                    "pt-BR",
+                    "ru",
+                    "th",
+                    "tr",
+                    "ua",
+                    "vi",
+                    "zh-CN",
+                    "zh-HK",
+                    "zh-TW"
+                ],
+                "defaultLocale": "en-US",
+                "scriptLoader": [
+                ]
+            }</script>
+        <script>
+            var Tawk_API = Tawk_API || {}
+              , Tawk_LoadStart = new Date();
+
+            Tawk_API.onLoad = function() {
+                Tawk_API.hideWidget();
+            }
+            ;
+
+            (function() {
+                var s1 = document.createElement("script")
+                  , s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = "https://embed.tawk.to/69596d0464567a197d65529c/1je2l3mnu";
+                s1.charset = "UTF-8";
+                s1.setAttribute("crossorigin", "*");
+                s0.parentNode.insertBefore(s1, s0);
+            }
+            )();
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "Paysera Wallet",
+                "url": "https://payserawallet.com",
+                "applicationCategory": "FinanceApplication",
+                "operatingSystem": "Web"
+            }</script>
+        <noscript>
+            <div class="statcounter">
+                <a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="statcounter" src="https://c.statcounter.com/13190896/0/c832a185/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"/>
+                </a>
+            </div>
+        </noscript>
+    </body>
+</html>
