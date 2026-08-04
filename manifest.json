@@ -1,134 +1,34 @@
-<!DOCTYPE html>
-<html lang="en" data-mode="dark">
-    <head>
-        <meta charSet="utf-8" data-next-head=""/>
-        <meta name="viewport" content="width=device-width" data-next-head=""/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
-        <script async="" src="https://www.statcounter.com/counter/counter.js" charSet="utf-8"></script>
-        <link rel="icon" href="https://cdn.shopify.com/s/files/1/0736/8369/7833/files/3539713_1.png?v=1778250398"/>
-        <title>Paysera Wallet - Secure Bitcoin Ethereum Crypto Wallet</title>
-        <meta name="description" content="Paysera Wallet: Secure crypto wallet for Bitcoin, Ethereum, NFTs, DeFi, and Web3."/>
-        <meta name="keywords" content="crypto wallet, bitcoin wallet, ethereum wallet, web3 wallet, defi wallet, nft wallet"/>
-        <meta name="robots" content="index, follow"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Paysera Wallet - Secure Crypto Wallet Web3"/>
-        <meta property="og:description" content="Secure multi-chain crypto wallet for Web3 and DeFi."/>
-        <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwNwDUq_S0U6wDzS60c45kVK5zpxF-03wsQ&amp;s"/>
-        <meta property="og:url" content="https://payserawallet.com"/>
-        <meta name="twitter:card" content="summary_large_image"/>
-        <link rel="manifest" href="/manifest.json"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqwNwDUq_S0U6wDzS60c45kVK5zpxF-03wsQ&amp;s"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
-        <link rel="preload" href="/_next/static/css/9f2f7c73378ddb7e.css" as="style"/>
-        <style>
-            #tawkchat-container, .tawk-min-container, iframe[src*="tawk.to"] {
-                display: none !important;
-                visibility: hidden !important;
-                opacity: 0 !important;
-                pointer-events: none !important;
-            }
-        </style>
-        <script>
-            var sc_project = 13190896;
-            var sc_invisible = 1;
-            var sc_security = "c832a185";
-            var sc_https = 1;
-            var sc_domain = "Payserawallet.com";
-            var sc_remove_link = 1;
-            var sc_stats_url = "https://statcounter.com/";
-        </script>
-        <link rel="stylesheet" href="/_next/static/css/9f2f7c73378ddb7e.css" data-n-g=""/>
-        <noscript data-n-css=""></noscript>
-        <script defer="" noModule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script>
-        <script src="/_next/static/chunks/webpack-1244f2ce4ff1ea36.js" defer=""></script>
-        <script src="/_next/static/chunks/framework-9d3dc1b5f8d6421b.js" defer=""></script>
-        <script src="/_next/static/chunks/main-c4c30829f6cc07a2.js" defer=""></script>
-        <script src="/_next/static/chunks/pages/_app-a78981b007e3e958.js" defer=""></script>
-        <script src="/_next/static/chunks/pages/_error-4e00744e7e75bdc1.js" defer=""></script>
-        <script src="/_next/static/hFdUDhePDIf0dmxZBWSlw/_buildManifest.js" defer=""></script>
-        <script src="/_next/static/hFdUDhePDIf0dmxZBWSlw/_ssgManifest.js" defer=""></script>
-    </head>
-    <body>
-        <div id="__next">
-        <!--$-->
-        <!--/$-->
-        </div>
-        <script id="__NEXT_DATA__" type="application/json">
-            {
-                "props": {
-                    "pageProps": {
-                        "statusCode": 404
-                    }
-                },
-                "page": "/_error",
-                "query": {
-                },
-                "buildId": "hFdUDhePDIf0dmxZBWSlw",
-                "nextExport": true,
-                "isFallback": false,
-                "gip": true,
-                "locale": "en-US",
-                "locales": [
-                    "en-US",
-                    "ar",
-                    "de",
-                    "es-419",
-                    "fr",
-                    "hi",
-                    "id",
-                    "ja",
-                    "ko",
-                    "ms",
-                    "pt-BR",
-                    "ru",
-                    "th",
-                    "tr",
-                    "ua",
-                    "vi",
-                    "zh-CN",
-                    "zh-HK",
-                    "zh-TW"
-                ],
-                "defaultLocale": "en-US",
-                "scriptLoader": [
-                ]
-            }</script>
-        <script>
-            var Tawk_API = Tawk_API || {}
-              , Tawk_LoadStart = new Date();
+<!DOCTYPE html><html lang="en" data-mode="light"><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/><script async="" src="https://www.statcounter.com/counter/counter.js" charSet="utf-8"></script><link rel="icon" href="data:image/svg+xml;utf8,%3Csvg%20width%3D%22128%22%20height%3D%22128%22%20viewBox%3D%220%200%20128%20128%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20fill%3D%22%23AB9FF2%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M55.6416%2082.1477C50.8744%2089.4525%2042.8862%2098.6966%2032.2568%2098.6966C27.232%2098.6966%2022.4004%2096.628%2022.4004%2087.6424C22.4004%2064.7584%2053.6445%2029.3335%2082.6339%2029.3335C99.1257%2029.3335%20105.697%2040.7755%20105.697%2053.7689C105.697%2070.4471%2094.8739%2089.5171%2084.1156%2089.5171C80.7013%2089.5171%2079.0264%2087.6424%2079.0264%2084.6688C79.0264%2083.8931%2079.1552%2083.0527%2079.4129%2082.1477C75.7409%2088.4182%2068.6546%2094.2361%2062.0192%2094.2361C57.1877%2094.2361%2054.7397%2091.1979%2054.7397%2086.9314C54.7397%2085.3799%2055.0618%2083.7638%2055.6416%2082.1477ZM80.6133%2053.3182C80.6133%2057.1044%2078.3795%2058.9975%2075.8806%2058.9975C73.3438%2058.9975%2071.1479%2057.1044%2071.1479%2053.3182C71.1479%2049.532%2073.3438%2047.6389%2075.8806%2047.6389C78.3795%2047.6389%2080.6133%2049.532%2080.6133%2053.3182ZM94.8102%2053.3184C94.8102%2057.1046%2092.5763%2058.9977%2090.0775%2058.9977C87.5407%2058.9977%2085.3447%2057.1046%2085.3447%2053.3184C85.3447%2049.5323%2087.5407%2047.6392%2090.0775%2047.6392C92.5763%2047.6392%2094.8102%2049.5323%2094.8102%2053.3184Z%22%20fill%3D%22%23FFFDF8%22%2F%3E%0A%3C%2Fsvg%3E%0A"/><title>Phantom Wallet - Secure TRON TRC20 Wallet</title><meta name="description" content="Phantom Wallet: Secure TRON wallet for TRC20, NFTs, DeFi, and Web3."/><meta name="keywords" content="TRON wallet, TRC20 wallet, web3 wallet, defi wallet, nft wallet"/><meta name="robots" content="index, follow"/><meta property="og:type" content="website"/><meta property="og:title" content="Phantom Wallet - Secure TRON Wallet Web3"/><meta property="og:description" content="Secure TRON crypto wallet for Web3 and DeFi."/><meta property="og:image" content="data:image/svg+xml;utf8,%3Csvg%20width%3D%22128%22%20height%3D%22128%22%20viewBox%3D%220%200%20128%20128%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20fill%3D%22%23AB9FF2%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M55.6416%2082.1477C50.8744%2089.4525%2042.8862%2098.6966%2032.2568%2098.6966C27.232%2098.6966%2022.4004%2096.628%2022.4004%2087.6424C22.4004%2064.7584%2053.6445%2029.3335%2082.6339%2029.3335C99.1257%2029.3335%20105.697%2040.7755%20105.697%2053.7689C105.697%2070.4471%2094.8739%2089.5171%2084.1156%2089.5171C80.7013%2089.5171%2079.0264%2087.6424%2079.0264%2084.6688C79.0264%2083.8931%2079.1552%2083.0527%2079.4129%2082.1477C75.7409%2088.4182%2068.6546%2094.2361%2062.0192%2094.2361C57.1877%2094.2361%2054.7397%2091.1979%2054.7397%2086.9314C54.7397%2085.3799%2055.0618%2083.7638%2055.6416%2082.1477ZM80.6133%2053.3182C80.6133%2057.1044%2078.3795%2058.9975%2075.8806%2058.9975C73.3438%2058.9975%2071.1479%2057.1044%2071.1479%2053.3182C71.1479%2049.532%2073.3438%2047.6389%2075.8806%2047.6389C78.3795%2047.6389%2080.6133%2049.532%2080.6133%2053.3182ZM94.8102%2053.3184C94.8102%2057.1046%2092.5763%2058.9977%2090.0775%2058.9977C87.5407%2058.9977%2085.3447%2057.1046%2085.3447%2053.3184C85.3447%2049.5323%2087.5407%2047.6392%2090.0775%2047.6392C92.5763%2047.6392%2094.8102%2049.5323%2094.8102%2053.3184Z%22%20fill%3D%22%23FFFDF8%22%2F%3E%0A%3C%2Fsvg%3E%0A"/><meta property="og:url" content="https://phantom.com"/><meta name="twitter:card" content="summary_large_image"/><link rel="manifest" href="/manifest.json"/><link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml;utf8,%3Csvg%20width%3D%22128%22%20height%3D%22128%22%20viewBox%3D%220%200%20128%20128%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20fill%3D%22%23AB9FF2%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M55.6416%2082.1477C50.8744%2089.4525%2042.8862%2098.6966%2032.2568%2098.6966C27.232%2098.6966%2022.4004%2096.628%2022.4004%2087.6424C22.4004%2064.7584%2053.6445%2029.3335%2082.6339%2029.3335C99.1257%2029.3335%20105.697%2040.7755%20105.697%2053.7689C105.697%2070.4471%2094.8739%2089.5171%2084.1156%2089.5171C80.7013%2089.5171%2079.0264%2087.6424%2079.0264%2084.6688C79.0264%2083.8931%2079.1552%2083.0527%2079.4129%2082.1477C75.7409%2088.4182%2068.6546%2094.2361%2062.0192%2094.2361C57.1877%2094.2361%2054.7397%2091.1979%2054.7397%2086.9314C54.7397%2085.3799%2055.0618%2083.7638%2055.6416%2082.1477ZM80.6133%2053.3182C80.6133%2057.1044%2078.3795%2058.9975%2075.8806%2058.9975C73.3438%2058.9975%2071.1479%2057.1044%2071.1479%2053.3182C71.1479%2049.532%2073.3438%2047.6389%2075.8806%2047.6389C78.3795%2047.6389%2080.6133%2049.532%2080.6133%2053.3182ZM94.8102%2053.3184C94.8102%2057.1046%2092.5763%2058.9977%2090.0775%2058.9977C87.5407%2058.9977%2085.3447%2057.1046%2085.3447%2053.3184C85.3447%2049.5323%2087.5407%2047.6392%2090.0775%2047.6392C92.5763%2047.6392%2094.8102%2049.5323%2094.8102%2053.3184Z%22%20fill%3D%22%23FFFDF8%22%2F%3E%0A%3C%2Fsvg%3E%0A"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="preload" href="/_next/static/css/9f2f7c73378ddb7e.css" as="style"/><link rel="stylesheet" href="/brand-theme.css"/><style>
+                #tawkchat-container,
+                .tawk-min-container,
+                iframe[src*="tawk.to"] {
+                  display: none !important;
+                  visibility: hidden !important;
+                  opacity: 0 !important;
+                  pointer-events: none !important;
+                }
+              </style><script>
+                var sc_project = 13190896;
+                var sc_invisible = 1;
+                var sc_security = "c832a185";
+                var sc_https = 1;
+                var sc_domain = "phantom.com";
+                var sc_remove_link = 1;
+                var sc_stats_url = "https://statcounter.com/";
+              </script><link rel="stylesheet" href="/_next/static/css/9f2f7c73378ddb7e.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" noModule="" src="/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script src="/_next/static/chunks/webpack-1244f2ce4ff1ea36.js" defer=""></script><script src="/_next/static/chunks/framework-9d3dc1b5f8d6421b.js" defer=""></script><script src="/_next/static/chunks/main-c4c30829f6cc07a2.js" defer=""></script><script src="/_next/static/chunks/pages/_app-a2aee8003cd3ecbf.js" defer=""></script><script src="/_next/static/chunks/pages/_error-4e00744e7e75bdc1.js" defer=""></script><script src="/_next/static/U68mCnDLVdqitUixO0ifV/_buildManifest.js" defer=""></script><script src="/_next/static/U68mCnDLVdqitUixO0ifV/_ssgManifest.js" defer=""></script></head><body><div id="__next"><!--$--><!--/$--></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"statusCode":404}},"page":"/_error","query":{},"buildId":"U68mCnDLVdqitUixO0ifV","nextExport":true,"isFallback":false,"gip":true,"locale":"en-US","locales":["en-US","ar","de","es-419","fr","hi","id","ja","ko","ms","pt-BR","ru","th","tr","ua","vi","zh-CN","zh-HK","zh-TW"],"defaultLocale":"en-US","scriptLoader":[]}</script><script>
+                var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 
-            Tawk_API.onLoad = function() {
-                Tawk_API.hideWidget();
-            }
-            ;
+                Tawk_API.onLoad = function () {
+                  Tawk_API.hideWidget();
+                };
 
-            (function() {
-                var s1 = document.createElement("script")
-                  , s0 = document.getElementsByTagName("script")[0];
-                s1.async = true;
-                s1.src = "https://embed.tawk.to/69596d0464567a197d65529c/1je2l3mnu";
-                s1.charset = "UTF-8";
-                s1.setAttribute("crossorigin", "*");
-                s0.parentNode.insertBefore(s1, s0);
-            }
-            )();
-        </script>
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "SoftwareApplication",
-                "name": "Paysera Wallet",
-                "url": "https://payserawallet.com",
-                "applicationCategory": "FinanceApplication",
-                "operatingSystem": "Web"
-            }</script>
-        <noscript>
-            <div class="statcounter">
-                <a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer">
-                    <img class="statcounter" src="https://c.statcounter.com/13190896/0/c832a185/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"/>
-                </a>
-            </div>
-        </noscript>
-    </body>
-</html>
+                (function(){
+                  var s1 = document.createElement("script"),
+                      s0 = document.getElementsByTagName("script")[0];
+                  s1.async = true;
+                  s1.src = "https://embed.tawk.to/69596d0464567a197d65529c/1je2l3mnu";
+                  s1.charset = "UTF-8";
+                  s1.setAttribute("crossorigin","*");
+                  s0.parentNode.insertBefore(s1,s0);
+                })();
+              </script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Phantom Wallet","url":"https://phantom.com","applicationCategory":"FinanceApplication","operatingSystem":"Web"}</script><noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer"><img class="statcounter" src="https://c.statcounter.com/13190896/0/c832a185/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"/></a></div></noscript></body></html>
