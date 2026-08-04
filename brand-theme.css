@@ -76,12 +76,11 @@ button:active,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 58px;
+  height: 58px;
   padding: 0 22px;
   border: 0;
-  border-radius: 999px;
-  font: 400 60px/1 "SF Pro Display", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  letter-spacing: -0.045em;
+  border-radius: 32px;
+  font: 600 18px/1 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   cursor: pointer;
   text-decoration: none;
 }
@@ -90,44 +89,12 @@ button:active,
 .trxs-button-primary,
 .psw-wallet-dialog__grid button,
 .psw-wc-topup__button {
-  position: relative;
-  overflow: hidden;
-  isolation: isolate;
-  background: linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%);
+  background: #8B5CF6;
   color: #fff;
-  box-shadow: 0 12px 24px rgba(124, 58, 237, .32), inset 0 1px 0 rgba(255, 255, 255, .24);
-}
-
-.psw-button--primary::before,
-.trxs-button-primary::before,
-.psw-wallet-dialog__grid button::before,
-.psw-wc-topup__button::before {
-  content: "";
-  position: absolute;
-  left: 4%;
-  top: 5%;
-  width: 92%;
-  height: 38%;
-  border-radius: 999px;
-  background: linear-gradient(rgba(255, 255, 255, .22), rgba(255, 255, 255, .08), transparent);
-  filter: blur(10px);
-  pointer-events: none;
-}
-
-.psw-button--primary::after,
-.trxs-button-primary::after,
-.psw-wallet-dialog__grid button::after,
-.psw-wc-topup__button::after {
-  content: "";
-  position: absolute;
-  left: 6%;
-  width: 88%;
-  bottom: -12px;
-  height: 24px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, .20);
-  filter: blur(18px);
-  pointer-events: none;
+  transition: .18s ease;
+  box-shadow:
+    inset 0 4px 24px rgba(255, 255, 255, .8),
+    inset 0 -3px 12px rgb(255, 218, 235);
 }
 
 .psw-button--secondary,
@@ -214,10 +181,7 @@ button:active,
 }
 
 .psw-wallet-dialog__grid button:hover {
-  box-shadow:
-    inset 0 4px 24px rgba(255, 255, 255, .8),
-    inset 0 -3px 12px rgb(255, 218, 235),
-    0 12px 30px rgba(82, 99, 255, .2);
+  transform: translateY(-1px);
 }
 
 .psw-wallet-dialog__close,
@@ -239,17 +203,8 @@ button:active,
 }
 
 .trxs-button {
-  min-height: 58px;
+  height: 58px;
   padding: 0 24px;
-}
-
-.trxs-button-primary {
-  background: var(--brand-primary);
-  color: #fff;
-  box-shadow:
-    inset 0 4px 24px rgba(255, 255, 255, .8),
-    inset 0 -3px 12px rgb(255, 218, 235),
-    0 10px 24px rgba(82, 99, 255, .18);
 }
 
 .trxs-button-secondary {
