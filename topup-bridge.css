@@ -1,14 +1,14 @@
 :root {
-  --psw-panel: rgba(10, 14, 20, 0.92);
-  --psw-panel-2: rgba(15, 20, 29, 0.98);
-  --psw-border: rgba(103, 199, 255, 0.18);
-  --psw-border-strong: rgba(103, 199, 255, 0.36);
-  --psw-text: #f3f7fb;
-  --psw-muted: #aab7c7;
-  --psw-accent: #4da3ff;
-  --psw-accent-2: #7fe0ff;
-  --psw-success: #34d399;
-  --psw-shadow: 0 32px 120px rgba(0, 0, 0, 0.48);
+  --psw-panel: rgba(255, 255, 255, 0.92);
+  --psw-panel-2: rgba(255, 255, 255, 0.98);
+  --psw-border: rgba(171, 159, 242, 0.18);
+  --psw-border-strong: rgba(139, 92, 246, 0.28);
+  --psw-text: #292824;
+  --psw-muted: #6e6e73;
+  --psw-accent: #8b5cf6;
+  --psw-accent-2: #c4b5fd;
+  --psw-success: #3dbe6c;
+  --psw-shadow: 0 18px 48px rgba(0, 0, 0, 0.08);
   --psw-radius-xl: 30px;
   --psw-radius-lg: 22px;
   --psw-radius-md: 16px;
@@ -22,8 +22,8 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgba(3, 7, 12, 0.68);
-  backdrop-filter: blur(12px);
+  background: rgba(246, 245, 244, 0.72);
+  backdrop-filter: blur(14px);
 }
 
 .psw-bridge-overlay.is-open {
@@ -37,7 +37,7 @@
   border: 1px solid var(--psw-border);
   border-radius: var(--psw-radius-xl);
   background:
-    radial-gradient(circle at top right, rgba(77, 163, 255, 0.15), transparent 28%),
+    radial-gradient(circle at top right, rgba(171, 159, 242, 0.18), transparent 28%),
     linear-gradient(180deg, var(--psw-panel), var(--psw-panel-2));
   color: var(--psw-text);
   box-shadow: var(--psw-shadow);
@@ -49,12 +49,12 @@
   justify-content: space-between;
   gap: 16px;
   padding: 22px 24px 18px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(41, 40, 36, 0.06);
 }
 
 .psw-bridge-kicker {
   margin: 0 0 6px;
-  color: var(--psw-accent-2);
+  color: var(--psw-accent);
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 11px;
@@ -74,7 +74,7 @@
   height: 44px;
   border-radius: 999px;
   color: var(--psw-text);
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(171, 159, 242, 0.10);
   cursor: pointer;
   font-size: 22px;
 }
@@ -88,15 +88,12 @@
 
 .psw-bridge-main,
 .psw-bridge-aside {
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(41, 40, 36, 0.06);
   border-radius: var(--psw-radius-lg);
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.78);
 }
 
-.psw-bridge-main {
-  padding: 18px;
-}
-
+.psw-bridge-main,
 .psw-bridge-aside {
   padding: 18px;
 }
@@ -124,8 +121,8 @@
 .psw-card,
 .psw-pill,
 .psw-action {
-  border: 1px solid rgba(255, 255, 255, 0.09);
-  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(41, 40, 36, 0.08);
+  background: rgba(255, 255, 255, 0.92);
   color: var(--psw-text);
   border-radius: 18px;
 }
@@ -133,14 +130,14 @@
 .psw-card,
 .psw-action {
   cursor: pointer;
-  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+  transition: transform 200ms cubic-bezier(.22,1,.36,1), border-color 200ms cubic-bezier(.22,1,.36,1), background 200ms cubic-bezier(.22,1,.36,1), box-shadow 200ms cubic-bezier(.22,1,.36,1);
 }
 
 .psw-card:hover,
 .psw-action:hover {
   transform: translateY(-1px);
   border-color: var(--psw-border-strong);
-  background: rgba(255, 255, 255, 0.065);
+  box-shadow: 0 12px 24px rgba(139, 92, 246, 0.08);
 }
 
 .psw-card {
@@ -195,8 +192,8 @@
 }
 
 .psw-action.primary {
-  border-color: rgba(77, 163, 255, 0.42);
-  background: linear-gradient(135deg, rgba(77, 163, 255, 0.25), rgba(127, 224, 255, 0.14));
+  border-color: rgba(139, 92, 246, 0.22);
+  background: linear-gradient(135deg, rgba(171, 159, 242, 0.22), rgba(196, 181, 253, 0.12));
 }
 
 .psw-progress {
@@ -208,7 +205,7 @@
   height: 10px;
   overflow: hidden;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(41, 40, 36, 0.08);
 }
 
 .psw-progress-bar > span {
@@ -240,7 +237,7 @@
   width: 10px;
   height: 10px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.18);
+  background: rgba(171, 159, 242, 0.22);
 }
 
 .psw-checklist li.is-done::before {
