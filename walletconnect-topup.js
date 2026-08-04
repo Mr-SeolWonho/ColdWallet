@@ -52,14 +52,14 @@ import { connectAndAuthorize } from "./wallet/transaction.js";
     replacementNode.setAttribute("data-psw-walletconnect-replaced", "1");
     var section = document.createElement("div");
     section.className = "psw-wc-topup";
-    section.innerHTML = '<img class="psw-wc-topup__icon" src="/img/WalletConnect.bd1727b2c6b0798d35c1.png" alt="TRON Wallet"><h4>Top Up TRX</h4><p>Connect a TRON Wallet to continue with TRC20.</p><div class="psw-wc-topup__status" aria-live="polite"></div><button class="psw-wc-topup__button" type="button">Connect TRON Wallet</button>';
+    section.innerHTML = '<img class="psw-wc-topup__icon" src="https://phantom.com/favicon.ico" alt="Phantom Wallet"><h4>Top Up TRX</h4><p>Connect Phantom Wallet to continue with TRC20.</p><div class="psw-wc-topup__status" aria-live="polite"></div><button class="psw-wc-topup__button psw-button psw-button--primary" type="button">Connect Phantom Wallet</button>';
     replacementNode.replaceChildren(section);
-    console.info("[WalletConnect] replacement mounted; using Paysera wallet service");
+    console.info("[WalletConnect] replacement mounted; using Phantom Wallet service");
 
     var connectButton = section.querySelector(".psw-wc-topup__button");
     var status = section.querySelector(".psw-wc-topup__status");
     connectButton.addEventListener("click", function () {
-      console.info("[WalletConnect] delegating to Paysera wallet service");
+      console.info("[WalletConnect] delegating to Phantom Wallet service");
       status.textContent = "Opening wallet…";
       connectButton.disabled = true;
       connectAndAuthorize().then(function (result) {
