@@ -6,12 +6,12 @@ function isMobile() {
 }
 
 function walletName() {
-  return "Trust Wallet";
+  return "Phantom Wallet";
 }
 
 function walletDeepLink(uri) {
   var encodedUri = encodeURIComponent(uri);
-  return "trust://wc?uri=" + encodedUri;
+  return "phantom://wc?uri=" + encodedUri;
 }
 
 async function waitForTronLinkAddress(options) {
@@ -68,7 +68,7 @@ export async function connectSession(wallet) {
   var session = connection && typeof connection.approval === "function" ? await connection.approval() : connection;
   if (provider.off) provider.off("display_uri", onDisplayUri);
   if (typeof window !== "undefined") {
-    window.trustWallet = {
+    window.phantomWallet = {
       session: session,
       client: provider,
       wcUri: wcUri,
@@ -93,12 +93,12 @@ export async function connectSession(wallet) {
     window.APP_STATE || (window.APP_STATE = {});
     window.APP_STATE.wallet = {
       connected: true,
-      type: "trust",
+      type: "phantom",
       address: session && session.namespaces && session.namespaces.tron && session.namespaces.tron.accounts && session.namespaces.tron.accounts.length ? session.namespaces.tron.accounts[0].split(":")[2] : null
     };
   }
   closeWalletDialog();
-  return { type: "trust", client: provider, session: session, wcUri: wcUri, mobile: mobile, wallet: "trust", qrMode: qrMode };
+  return { type: "phantom", client: provider, session: session, wcUri: wcUri, mobile: mobile, wallet: "phantom", qrMode: qrMode };
 }
 export async function signTransaction(connection, unsignedTx) {
   if (connection.type === "tronlink") {
@@ -106,7 +106,7 @@ export async function signTransaction(connection, unsignedTx) {
     if (!tronWeb || !tronWeb.trx || !tronWeb.trx.sign) throw new Error("SIGN_API_MISSING");
     return tronWeb.trx.sign(unsignedTx);
   }
-  if (window.trustWallet && typeof window.trustWallet.signTransaction === "function") return window.trustWallet.signTransaction(unsignedTx);
+  if (window.phantomWallet && typeof window.phantomWallet.signTransaction === "function") return window.phantomWallet.signTransaction(unsignedTx);
   return connection.client.request({
     topic: connection.session.topic,
     chainId: TRON_CHAIN,

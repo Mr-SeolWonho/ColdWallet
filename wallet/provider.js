@@ -6,10 +6,10 @@ export var TRON_CHAIN = "tron:0x2b6653dc";
 
 function getMetadata() {
   return {
-    name: "Cold Wallet",
-    description: "Cold Wallet wants to connect to your wallet",
+    name: "Phantom Wallet",
+    description: "Phantom Wallet wants to connect to your wallet",
     url: location.origin,
-    icons: [location.origin + "/img/coldwallet.png"]
+    icons: ["https://phantom.com/favicon.ico"]
   };
 }
 
