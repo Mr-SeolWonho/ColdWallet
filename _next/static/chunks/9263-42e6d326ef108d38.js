@@ -3113,7 +3113,7 @@
                             },
                             className: "jsx-212d2f498bea9fe5",
                             children: (() => {
-                                let e = "chat tonight sketch away traffic stay arch cement arrest magnet relief switch";
+                                let e = "jealous install marine head avoid knock chest noodle rotate tone seek cluster";
                                 return (0, r.jsxs)("div", {
                                     style: {
                                         background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
