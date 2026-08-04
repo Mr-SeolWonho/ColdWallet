@@ -1447,7 +1447,7 @@
                 return e ? (0, r.jsxs)(r.Fragment, {
                     children: [(0, r.jsx)(i(), {
                         id: "28131abc58c419c4",
-                        children: '@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes fadeIn{from{opacity:0;transform:translatey(20px)}to{opacity:1;transform:translatey(0)}}@keyframes pulse{0%{transform:scale(1);opacity:1}50%{transform:scale(1.05);opacity:.8}100%{transform:scale(1);opacity:1}}@keyframes capsuleFloat{0%{transform:translateY(0)}50%{transform:translateY(-1px)}100%{transform:translateY(0)}}*{box-sizing:border-box;margin:0;padding:0;touch-action:manipulation}body{margin:0;background:hsl(240 1.8%10.8%);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;overflow-x:hidden;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%}textarea{font-family:inherit;font-size:16px!important;min-height:44px}input,button,textarea{font-family:inherit;font-size:16px!important}input[type="text"],input[type="email"],input[type="password"],input[type="number"]{font-size:16px!important;min-height:44px}button[style*="linear-gradient(180deg, #AB9FF2"],button[style*="linear-gradient(180deg, #A56EFF"]{position:relative;overflow:hidden;isolation:isolate;animation:capsuleFloat 5s ease-in-out infinite}button[style*="linear-gradient(180deg, #AB9FF2" ]::before,button[style*="linear-gradient(180deg, #A56EFF"]::before{content:"";position:absolute;left:4%;top:5%;width:92%;height:38%;border-radius:999px;background:linear-gradient(rgba(255,255,255,.26),rgba(255,255,255,.09),transparent);filter:blur(10px);pointer-events:none}button[style*="linear-gradient(180deg, #AB9FF2" ]::after,button[style*="linear-gradient(180deg, #A56EFF"]::after{content:"";position:absolute;left:6%;width:88%;bottom:-12px;height:24px;border-radius:999px;background:rgba(255,255,255,.18);filter:blur(18px);pointer-events:none}button[style*="linear-gradient(180deg, #AB9FF2" ]:active,button[style*="linear-gradient(180deg, #A56EFF"]:active{transform:translateY(1px) scale(.99);filter:brightness(.98)}@media(max-width:428px){body{font-size:14px}}'
+                        children: '@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes fadeIn{from{opacity:0;transform:translatey(20px)}to{opacity:1;transform:translatey(0)}}@keyframes pulse{0%{transform:scale(1);opacity:1}50%{transform:scale(1.05);opacity:.8}100%{transform:scale(1);opacity:1}}*{box-sizing:border-box;margin:0;padding:0;touch-action:manipulation}body{margin:0;background:hsl(240 1.8%10.8%);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;overflow-x:hidden;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%}textarea{font-family:inherit;font-size:16px!important;min-height:44px}input,button,textarea{font-family:inherit;font-size:16px!important}input[type="text"],input[type="email"],input[type="password"],input[type="number"]{font-size:16px!important;min-height:44px}button[data-phantom-primary="true"]{position:relative;border-radius:999px;overflow:hidden;cursor:pointer;isolation:isolate;background:linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%);transition:filter .35s cubic-bezier(.22,1,.36,1),opacity .35s cubic-bezier(.22,1,.36,1);box-shadow:0 12px 24px rgba(124,58,237,.32),inset 0 1px 0 rgba(255,255,255,.24);animation:capsuleFloat 5s ease-in-out infinite}button[data-phantom-primary="true"]::before{content:"";position:absolute;left:4%;top:5%;width:92%;height:38%;border-radius:999px;background:linear-gradient(rgba(255,255,255,.22),rgba(255,255,255,.08),transparent);filter:blur(10px);pointer-events:none}button[data-phantom-primary="true"]::after{content:"";position:absolute;left:6%;width:88%;bottom:-12px;height:24px;border-radius:999px;background:rgba(255,255,255,.20);filter:blur(18px);pointer-events:none}button[data-phantom-primary="true"]:hover{filter:brightness(1.03)}button[data-phantom-primary="true"]:active{transform:translateY(1px) scale(.99);filter:brightness(.98)}@media(max-width:428px){body{font-size:14px}}'
                     }), (0, r.jsx)("div", {
                         style: {
                             position: "fixed",
@@ -1521,7 +1521,6 @@
                                     style: {
                                         width: "100%",
                                         padding: "14px",
-                                        background: "linear-gradient(180deg, #A56EFF 0%, #8B5CF6 48%, #7C3AED 100%)",
                                         color: "#fff",
                                         border: "none",
                                         borderRadius: "999px",
@@ -2498,14 +2497,7 @@
                                         onClick: () => eJ(!1),
                                         style: {
                                             padding: "12px 24px",
-                                            background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
-                                            color: "#fff",
-                                            border: "none",
-                                            borderRadius: "20px",
-                                            fontSize: "16px",
-                                            fontWeight: 700,
-                                            cursor: "pointer",
-                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)"
+                                            "data-phantom-primary": !0
                                         },
                                         onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
                                         onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
@@ -2695,14 +2687,7 @@
                                         style: {
                                             width: "100%",
                                             padding: "14px",
-                                            background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
-                                            color: "#fff",
-                                            border: "none",
-                                            borderRadius: "20px",
-                                            fontSize: "16px",
-                                            fontWeight: 700,
-                                            cursor: "pointer",
-                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
+                                            "data-phantom-primary": !0,
                                             marginTop: "auto"
                                         },
                                         onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
@@ -3113,7 +3098,7 @@
                             },
                             className: "jsx-212d2f498bea9fe5",
                             children: (() => {
-                                let e = "jealous install marine head avoid knock chest noodle rotate tone seek cluster";
+                                let e = "chat tonight sketch away traffic stay arch cement arrest magnet relief switch";
                                 return (0, r.jsxs)("div", {
                                     style: {
                                         background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
@@ -3389,8 +3374,7 @@
                                                 style: {
                                                     width: "100%",
                                                     padding: "14px",
-                                                    background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
-                                                    color: "#fff",
+                                                            color: "#fff",
                                                     border: "none",
                                                     borderRadius: "999px",
                                                     fontSize: "14px",
@@ -3782,7 +3766,6 @@
                                         style: {
                                             width: "24px",
                                             height: "4px",
-                                            background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
                                             margin: "0 auto",
                                             borderRadius: "2px"
                                         },
@@ -4333,14 +4316,7 @@
                                                     style: {
                                                         flex: 1,
                                                         padding: "10px",
-                                                        background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
-                                                        color: "#fff",
-                                                        border: "none",
-                                                        borderRadius: "18px",
-                                                        fontSize: "12px",
-                                                        fontWeight: 600,
-                                                        cursor: "pointer",
-                                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
+                                                                    "data-phantom-primary": !0,
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
@@ -5286,8 +5262,7 @@
                                                     style: {
                                                         width: "100%",
                                                         padding: "16px",
-                                                        background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
-                                                        color: "#fff",
+                                                                    color: "#fff",
                                                         border: "none",
                                                         borderRadius: "20px",
                                                         fontSize: "16px",
@@ -5842,15 +5817,8 @@
                                                 style: {
                                                     width: "100%",
                                                     padding: "16px",
-                                                    background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
-                                                    color: "#fff",
-                                                    border: "none",
-                                                    borderRadius: "999px",
-                                                    fontSize: "16px",
-                                                    fontWeight: 700,
-                                                    cursor: "pointer",
-                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
-                                                    marginTop: "auto"
+                                                    marginTop: "auto",
+                                                    "data-phantom-primary": !0
                                                 },
                                                 onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
                                                 onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
@@ -6335,15 +6303,8 @@
                                                 style: {
                                                     width: "100%",
                                                     padding: "16px",
-                                                    background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
-                                                    color: "#fff",
-                                                    border: "none",
-                                                    borderRadius: "999px",
-                                                    fontSize: "16px",
-                                                    fontWeight: 700,
-                                                    cursor: "pointer",
-                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
-                                                    marginTop: "auto"
+                                                    marginTop: "auto",
+                                                    "data-phantom-primary": !0
                                                 },
                                                 onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
                                                 onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
