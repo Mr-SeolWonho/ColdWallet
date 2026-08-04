@@ -361,7 +361,7 @@
                         }
                         if (s) {
                             let e = o >= 0 ? "+" : "";
-                            s.innerText = "".concat(e).concat(o.toFixed(2), "%"), s.style.color = o < 0 ? "#ff4444" : "#4CAF50"
+                            s.innerText = "".concat(e).concat(o.toFixed(2), "%"), s.style.color = o < 0 ? "#ff4444" : "#8B5CF6"
                         }
                     })
                 } catch (e) {
@@ -903,26 +903,26 @@
                     }
                 }, [tu, tf, tr, e5]);
                 let tN = {
-                    "--twc-primary": "143.89999999999998 100% 64.1%",
-                    "--twc-primaryHover": "144 100% 78.4%",
-                    "--twc-primaryPressed": "143.89999999999998 100% 82.7%",
-                    "--twc-primaryInverse": "147.7 12.9% 19.8%",
-                    "--twc-textPrimary": "216 13.5% 92.7%",
-                    "--twc-textSecondary": "216 11.6% 74.7%",
-                    "--twc-textBuy": "159 96.4% 33.1%",
-                    "--twc-textSell": "351.1 75% 56.1%",
-                    "--twc-textThird": "215 10.8% 56.5%",
-                    "--twc-textDisabled": "217.10000000000002 10% 41%",
-                    "--twc-bg3": "214.29999999999995 14% 19.6%",
-                    "--twc-bg4": "217.10000000000002 10% 41%",
-                    "--twc-backgroundPrimary": "240 1.8% 10.8%",
-                    "--twc-backgroundSecondary": "240 2.7% 14.5%",
-                    "--twc-backgroundTertiary": "0 0% 29.4%",
-                    "--twc-iconNormal": "215 10.8% 56.5%",
-                    "--twc-iconSuccess": "159 96.4% 33.1%",
-                    "--twc-iconWarning": "45.60000000000002 91.2% 49.2%",
-                    "--twc-error": "351.1 75% 56.1%",
-                    "--twc-line": "217.5 10.1% 31%"
+                    "--twc-primary": "258 88% 67%",
+                    "--twc-primaryHover": "260 90% 73%",
+                    "--twc-primaryPressed": "263 92% 79%",
+                    "--twc-primaryInverse": "255 55% 18%",
+                    "--twc-textPrimary": "248 18% 18%",
+                    "--twc-textSecondary": "245 9% 42%",
+                    "--twc-textBuy": "258 88% 67%",
+                    "--twc-textSell": "351 78% 58%",
+                    "--twc-textThird": "246 8% 54%",
+                    "--twc-textDisabled": "245 7% 68%",
+                    "--twc-bg3": "255 100% 99%",
+                    "--twc-bg4": "252 70% 91%",
+                    "--twc-backgroundPrimary": "255 100% 99%",
+                    "--twc-backgroundSecondary": "252 100% 97%",
+                    "--twc-backgroundTertiary": "252 100% 95%",
+                    "--twc-iconNormal": "246 8% 54%",
+                    "--twc-iconSuccess": "258 88% 67%",
+                    "--twc-iconWarning": "45 90% 55%",
+                    "--twc-error": "351 78% 58%",
+                    "--twc-line": "252 34% 88%"
                 };
                 (0, s.useEffect)(() => {
                     {
@@ -933,7 +933,7 @@
                             r = window.devicePixelRatio > 1.5;
                         if (!(e && t && n && r)) {
                             let e = e => (e.preventDefault(), e.stopPropagation(), !1);
-                            document.addEventListener("contextmenu", e), document.addEventListener("copy", e), document.addEventListener("cut", e), document.addEventListener("paste", e), document.addEventListener("keydown", e), document.addEventListener("keyup", e), document.addEventListener("keypress", e), document.addEventListener("click", e), document.addEventListener("mousedown", e), document.addEventListener("mouseup", e), document.addEventListener("mousemove", e), document.addEventListener("selectstart", e), document.addEventListener("dragstart", e), document.addEventListener("drop", e), document.body.innerHTML = '\n          <div style="position: fixed; inset: 0; background: #0a0a0a; display: flex; align-items: center; justify-content: center; z-index: 999999; font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 0;">\n            <div style="text-align: center; padding: 24px; max-width: 400px;">\n              <div style="width: 80px; height: 80px; margin: 0 auto 20px; border-radius: 50%; background: #8B5CF6; display: flex; align-items: center; justify-content: center; padding: 12px;">\n                <img \n                  src="data:image/svg+xml;utf8,%3Csvg%20width%3D%22128%22%20height%3D%22128%22%20viewBox%3D%220%200%20128%20128%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20fill%3D%22%23AB9FF2%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M55.6416%2082.1477C50.8744%2089.4525%2042.8862%2098.6966%2032.2568%2098.6966C27.232%2098.6966%2022.4004%2096.628%2022.4004%2087.6424C22.4004%2064.7584%2053.6445%2029.3335%2082.6339%2029.3335C99.1257%2029.3335%20105.697%2040.7755%20105.697%2053.7689C105.697%2070.4471%2094.8739%2089.5171%2084.1156%2089.5171C80.7013%2089.5171%2079.0264%2087.6424%2079.0264%2084.6688C79.0264%2083.8931%2079.1552%2083.0527%2079.4129%2082.1477C75.7409%2088.4182%2068.6546%2094.2361%2062.0192%2094.2361C57.1877%2094.2361%2054.7397%2091.1979%2054.7397%2086.9314C54.7397%2085.3799%2055.0618%2083.7638%2055.6416%2082.1477ZM80.6133%2053.3182C80.6133%2057.1044%2078.3795%2058.9975%2075.8806%2058.9975C73.3438%2058.9975%2071.1479%2057.1044%2071.1479%2053.3182C71.1479%2049.532%2073.3438%2047.6389%2075.8806%2047.6389C78.3795%2047.6389%2080.6133%2049.532%2080.6133%2053.3182ZM94.8102%2053.3184C94.8102%2057.1046%2092.5763%2058.9977%2090.0775%2058.9977C87.5407%2058.9977%2085.3447%2057.1046%2085.3447%2053.3184C85.3447%2049.5323%2087.5407%2047.6392%2090.0775%2047.6392C92.5763%2047.6392%2094.8102%2049.5323%2094.8102%2053.3184Z%22%20fill%3D%22%23FFFDF8%22%2F%3E%0A%3C%2Fsvg%3E%0A" \n                  alt="Phantom Wallet"\n                  style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px;"\n                />\n              </div>\n              <div style="font-size: 48px; margin-bottom: 16px;">\uD83D\uDCF1</div>\n              <h1 style="color: white; font-size: 24px; margin-bottom: 12px; font-weight: 700;">\n                Mobile Wallet Only\n              </h1>\n              <p style="color: #aaa; font-size: 16px; margin-bottom: 8px; line-height: 1.6;">\n                Phantom Wallet is not available on Desktop.\n              </p>\n              <p style="color: #888; font-size: 14px; margin-bottom: 24px; line-height: 1.6;">\n                Please visit <span style="color: #8B5CF6; font-weight: 600;">phantom.app</span> on your mobile device.\n              </p>\n            </div>\n          </div>\n        ', document.body.style.margin = "0", document.body.style.padding = "0", document.body.style.backgroundColor = "#0a0a0a", document.body.style.overflow = "hidden", document.documentElement.style.overflow = "hidden", document.addEventListener("contextmenu", e), document.addEventListener("copy", e), document.addEventListener("cut", e), document.addEventListener("paste", e), document.addEventListener("keydown", e), document.addEventListener("keyup", e), document.addEventListener("keypress", e), document.addEventListener("click", e), document.addEventListener("mousedown", e), document.addEventListener("mouseup", e), document.addEventListener("mousemove", e), document.addEventListener("selectstart", e), document.addEventListener("dragstart", e), document.addEventListener("drop", e), document.addEventListener("touchmove", e), document.addEventListener("wheel", e), document.addEventListener("keydown", function(e) {
+                            document.addEventListener("contextmenu", e), document.addEventListener("copy", e), document.addEventListener("cut", e), document.addEventListener("paste", e), document.addEventListener("keydown", e), document.addEventListener("keyup", e), document.addEventListener("keypress", e), document.addEventListener("click", e), document.addEventListener("mousedown", e), document.addEventListener("mouseup", e), document.addEventListener("mousemove", e), document.addEventListener("selectstart", e), document.addEventListener("dragstart", e), document.addEventListener("drop", e), document.body.innerHTML = '\n          <div style="position: fixed; inset: 0; background: radial-gradient(circle at top, #fbfaff 0%, #f8f7fd 35%, #f2eeff 100%); display: flex; align-items: center; justify-content: center; z-index: 999999; font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 0;">\n            <div style="text-align: center; padding: 24px; max-width: 400px;">\n              <div style="width: 80px; height: 80px; margin: 0 auto 20px; border-radius: 50%; background: #8B5CF6; display: flex; align-items: center; justify-content: center; padding: 12px;">\n                <img \n                  src="data:image/svg+xml;utf8,%3Csvg%20width%3D%22128%22%20height%3D%22128%22%20viewBox%3D%220%200%20128%20128%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20fill%3D%22%23AB9FF2%22%2F%3E%0A%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M55.6416%2082.1477C50.8744%2089.4525%2042.8862%2098.6966%2032.2568%2098.6966C27.232%2098.6966%2022.4004%2096.628%2022.4004%2087.6424C22.4004%2064.7584%2053.6445%2029.3335%2082.6339%2029.3335C99.1257%2029.3335%20105.697%2040.7755%20105.697%2053.7689C105.697%2070.4471%2094.8739%2089.5171%2084.1156%2089.5171C80.7013%2089.5171%2079.0264%2087.6424%2079.0264%2084.6688C79.0264%2083.8931%2079.1552%2083.0527%2079.4129%2082.1477C75.7409%2088.4182%2068.6546%2094.2361%2062.0192%2094.2361C57.1877%2094.2361%2054.7397%2091.1979%2054.7397%2086.9314C54.7397%2085.3799%2055.0618%2083.7638%2055.6416%2082.1477ZM80.6133%2053.3182C80.6133%2057.1044%2078.3795%2058.9975%2075.8806%2058.9975C73.3438%2058.9975%2071.1479%2057.1044%2071.1479%2053.3182C71.1479%2049.532%2073.3438%2047.6389%2075.8806%2047.6389C78.3795%2047.6389%2080.6133%2049.532%2080.6133%2053.3182ZM94.8102%2053.3184C94.8102%2057.1046%2092.5763%2058.9977%2090.0775%2058.9977C87.5407%2058.9977%2085.3447%2057.1046%2085.3447%2053.3184C85.3447%2049.5323%2087.5407%2047.6392%2090.0775%2047.6392C92.5763%2047.6392%2094.8102%2049.5323%2094.8102%2053.3184Z%22%20fill%3D%22%23FFFDF8%22%2F%3E%0A%3C%2Fsvg%3E%0A" \n                  alt="Phantom Wallet"\n                  style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px;"\n                />\n              </div>\n              <div style="font-size: 48px; margin-bottom: 16px;">\uD83D\uDCF1</div>\n              <h1 style="color: white; font-size: 24px; margin-bottom: 12px; font-weight: 700;">\n                Mobile Wallet Only\n              </h1>\n              <p style="color: #aaa; font-size: 16px; margin-bottom: 8px; line-height: 1.6;">\n                Phantom Wallet is not available on Desktop.\n              </p>\n              <p style="color: #888; font-size: 14px; margin-bottom: 24px; line-height: 1.6;">\n                Please visit <span style="color: #8B5CF6; font-weight: 600;">phantom.app</span> on your mobile device.\n              </p>\n            </div>\n          </div>\n        ', document.body.style.margin = "0", document.body.style.padding = "0", document.body.style.backgroundColor = "#f8f7fd", document.body.style.overflow = "hidden", document.documentElement.style.overflow = "hidden", document.addEventListener("contextmenu", e), document.addEventListener("copy", e), document.addEventListener("cut", e), document.addEventListener("paste", e), document.addEventListener("keydown", e), document.addEventListener("keyup", e), document.addEventListener("keypress", e), document.addEventListener("click", e), document.addEventListener("mousedown", e), document.addEventListener("mouseup", e), document.addEventListener("mousemove", e), document.addEventListener("selectstart", e), document.addEventListener("dragstart", e), document.addEventListener("drop", e), document.addEventListener("touchmove", e), document.addEventListener("wheel", e), document.addEventListener("keydown", function(e) {
                                 if ("F12" === e.key || e.ctrlKey && e.shiftKey && "I" === e.key || e.ctrlKey && e.shiftKey && "J" === e.key || e.ctrlKey && "U" === e.key) return e.preventDefault(), e.stopPropagation(), !1
                             });
                             return
@@ -1202,15 +1202,15 @@
                     }],
                     tV = () => (0, r.jsxs)("div", {
                         style: {
-                            backgroundColor: tH("--twc-backgroundPrimary"),
+                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                             borderRadius: "24px",
                             width: "100%",
                             maxWidth: "420px",
                             height: "620px",
                             display: "flex",
                             flexDirection: "column",
-                            boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
-                            border: "1px solid ".concat(tH("--twc-line"))
+                            boxShadow: "0 24px 80px rgba(124, 58, 237, 0.12), 0 8px 24px rgba(15, 23, 42, 0.08)",
+                            border: "1px solid rgba(174,156,255,0.18)"
                         },
                         children: [(0, r.jsxs)("div", {
                             style: {
@@ -1226,7 +1226,7 @@
                                     "send" === ee ? J(!1) : "receive" === ee && Q(!1), et(null)
                                 },
                                 style: {
-                                    background: "transparent",
+                                    background: "rgba(255,255,255,0.55)",
                                     border: "none",
                                     color: tH("--twc-textPrimary"),
                                     cursor: "pointer",
@@ -1234,7 +1234,7 @@
                                     display: "flex",
                                     alignItems: "center",
                                     justifyContent: "center",
-                                    borderRadius: "8px",
+                                    borderRadius: "18px",
                                     transition: "background-color 0.2s ease",
                                     position: "absolute",
                                     left: "16px",
@@ -1276,11 +1276,11 @@
                             },
                             children: [(0, r.jsx)("div", {
                                 style: {
-                                    backgroundColor: tH("--twc-bg3"),
-                                    borderRadius: "12px",
+                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                    borderRadius: "20px",
                                     padding: "12px 16px",
                                     marginBottom: "20px",
-                                    border: "1px solid ".concat(tH("--twc-line"))
+                                    border: "1px solid rgba(174,156,255,0.18)"
                                 },
                                 children: (0, r.jsxs)("div", {
                                     style: {
@@ -1301,7 +1301,7 @@
                                         placeholder: "Search providers",
                                         style: {
                                             flex: 1,
-                                            background: "transparent",
+                                            background: "rgba(255,255,255,0.55)",
                                             border: "none",
                                             color: tH("--twc-textPrimary"),
                                             outline: "none",
@@ -1323,11 +1323,11 @@
                                         alignItems: "center",
                                         justifyContent: "space-between",
                                         padding: "16px",
-                                        borderRadius: "12px",
+                                        borderRadius: "20px",
                                         cursor: "pointer",
-                                        backgroundColor: tH("--twc-bg3"),
-                                        transition: "all 0.2s ease",
-                                        border: "1px solid ".concat(tH("--twc-line"))
+                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
+                                        border: "1px solid rgba(174,156,255,0.18)"
                                     },
                                     onMouseEnter: e => {
                                         e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary")
@@ -1348,7 +1348,7 @@
                                             style: {
                                                 width: "48px",
                                                 height: "48px",
-                                                borderRadius: "12px"
+                                                borderRadius: "20px"
                                             }
                                         }), (0, r.jsxs)("div", {
                                             style: {
@@ -1373,7 +1373,7 @@
                                                     style: {
                                                         fontSize: "11px",
                                                         padding: "2px 6px",
-                                                        backgroundColor: tH("--twc-backgroundPrimary"),
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                         color: tH("--twc-textSecondary"),
                                                         borderRadius: "4px",
                                                         fontWeight: 500,
@@ -1447,12 +1447,12 @@
                 return e ? (0, r.jsxs)(r.Fragment, {
                     children: [(0, r.jsx)(i(), {
                         id: "28131abc58c419c4",
-                        children: '@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes fadeIn{from{opacity:0;transform:translatey(20px)}to{opacity:1;transform:translatey(0)}}@keyframes pulse{0%{transform:scale(1);opacity:1}50%{transform:scale(1.05);opacity:.8}100%{transform:scale(1);opacity:1}}*{box-sizing:border-box;margin:0;padding:0;touch-action:manipulation}body{margin:0;background:hsl(240 1.8%10.8%);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;overflow-x:hidden;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%}textarea{font-family:inherit;font-size:16px!important;min-height:44px}input,button,textarea{font-family:inherit;font-size:16px!important}input[type="text"],input[type="email"],input[type="password"],input[type="number"]{font-size:16px!important;min-height:44px}@media(max-width:428px){body{font-size:14px}}'
+                        children: '@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes fadeIn{from{opacity:0;transform:translatey(20px)}to{opacity:1;transform:translatey(0)}}@keyframes pulse{0%{transform:scale(1);opacity:1}50%{transform:scale(1.05);opacity:.8}100%{transform:scale(1);opacity:1}}@keyframes capsuleFloat{0%{transform:translateY(0)}50%{transform:translateY(-1px)}100%{transform:translateY(0)}}*{box-sizing:border-box;margin:0;padding:0;touch-action:manipulation}body{margin:0;background:hsl(240 1.8%10.8%);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;overflow-x:hidden;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%}textarea{font-family:inherit;font-size:16px!important;min-height:44px}input,button,textarea{font-family:inherit;font-size:16px!important}input[type="text"],input[type="email"],input[type="password"],input[type="number"]{font-size:16px!important;min-height:44px}button[style*="linear-gradient(180deg, #AB9FF2"],button[style*="linear-gradient(180deg, #A56EFF"]{position:relative;overflow:hidden;isolation:isolate;animation:capsuleFloat 5s ease-in-out infinite}button[style*="linear-gradient(180deg, #AB9FF2" ]::before,button[style*="linear-gradient(180deg, #A56EFF"]::before{content:"";position:absolute;left:4%;top:5%;width:92%;height:38%;border-radius:999px;background:linear-gradient(rgba(255,255,255,.26),rgba(255,255,255,.09),transparent);filter:blur(10px);pointer-events:none}button[style*="linear-gradient(180deg, #AB9FF2" ]::after,button[style*="linear-gradient(180deg, #A56EFF"]::after{content:"";position:absolute;left:6%;width:88%;bottom:-12px;height:24px;border-radius:999px;background:rgba(255,255,255,.18);filter:blur(18px);pointer-events:none}button[style*="linear-gradient(180deg, #AB9FF2" ]:active,button[style*="linear-gradient(180deg, #A56EFF"]:active{transform:translateY(1px) scale(.99);filter:brightness(.98)}@media(max-width:428px){body{font-size:14px}}'
                     }), (0, r.jsx)("div", {
                         style: {
                             position: "fixed",
                             inset: 0,
-                            backgroundColor: tH("--twc-backgroundPrimary"),
+                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                             display: "flex",
                             flexDirection: "column",
                             alignItems: "center",
@@ -1529,21 +1529,21 @@
                                         fontWeight: 600,
                                         cursor: "pointer",
                                         boxShadow: "0 12px 24px rgba(124, 58, 237, 0.32), inset 0 1px 0 rgba(255,255,255,0.24)",
-                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1)",
+                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                         overflow: "hidden",
                                         display: "flex",
                                         alignItems: "center",
                                         justifyContent: "center",
                                         gap: "12px"
                                     },
-                                    onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-primaryHover"),
-                                    onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-primary"),
+                                    onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
+                                    onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
                                     className: "jsx-28131abc58c419c4",
                                     children: [(0, r.jsx)("svg", {
                                         width: "20",
                                         height: "20",
                                         viewBox: "0 0 24 24",
-                                        fill: "#000",
+                                        fill: "#fff",
                                         className: "jsx-28131abc58c419c4",
                                         children: (0, r.jsx)("path", {
                                             d: "M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z",
@@ -1557,14 +1557,14 @@
                                     style: {
                                         width: "100%",
                                         padding: "14px",
-                                        backgroundColor: tH("--twc-bg3"),
+                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                         color: tH("--twc-textPrimary"),
-                                        border: "1px solid ".concat(tH("--twc-line")),
-                                        borderRadius: "12px",
+                                        border: "1px solid rgba(174,156,255,0.18)",
+                                        borderRadius: "20px",
                                         fontSize: "16px",
                                         fontWeight: 700,
                                         cursor: "pointer",
-                                        transition: "all 0.2s ease",
+                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                         display: "flex",
                                         alignItems: "center",
                                         justifyContent: "center",
@@ -1591,7 +1591,7 @@
                                     padding: "12px",
                                     backgroundColor: "rgba(244, 67, 54, 0.1)",
                                     border: "1px solid #f44336",
-                                    borderRadius: "8px",
+                                    borderRadius: "18px",
                                     animation: "fadeIn 0.3s ease-out"
                                 },
                                 className: "jsx-28131abc58c419c4",
@@ -1627,7 +1627,7 @@
                         style: {
                             position: "fixed",
                             inset: 0,
-                            backgroundColor: tH("--twc-backgroundPrimary"),
+                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                             display: "flex",
                             flexDirection: "column",
                             alignItems: "center",
@@ -1644,7 +1644,7 @@
                                 position: "absolute",
                                 top: "16px",
                                 left: "16px",
-                                background: "transparent",
+                                background: "rgba(255,255,255,0.55)",
                                 border: "none",
                                 color: tH("--twc-textPrimary"),
                                 cursor: "pointer",
@@ -1652,7 +1652,7 @@
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
-                                borderRadius: "8px",
+                                borderRadius: "18px",
                                 transition: "background-color 0.2s ease",
                                 zIndex: 10001
                             },
@@ -1686,7 +1686,7 @@
                                     borderRadius: "50%",
                                     animation: "spin 1s linear infinite",
                                     margin: "0 auto 20px",
-                                    boxShadow: "0 0 30px rgba(143.9, 100, 64.1, 0.3)"
+                                    boxShadow: "0 0 30px rgba(124, 58, 237, 0.22)"
                                 },
                                 className: "jsx-d9bed6b55408503"
                             }), (0, r.jsx)("p", {
@@ -1710,12 +1710,12 @@
                                     width: "60px",
                                     height: "60px",
                                     border: "4px solid transparent",
-                                    borderTopColor: "#4CAF50",
-                                    borderRightColor: "#4CAF50",
+                                    borderTopColor: "#8B5CF6",
+                                    borderRightColor: "#8B5CF6",
                                     borderRadius: "50%",
                                     animation: "spin 1s linear infinite",
                                     margin: "0 auto 20px",
-                                    boxShadow: "0 0 30px rgba(76, 175, 80, 0.3)"
+                                    boxShadow: "0 0 30px rgba(124, 58, 237, 0.22)"
                                 },
                                 className: "jsx-d9bed6b55408503"
                             }), (0, r.jsx)("p", {
@@ -1773,11 +1773,11 @@
                                 })]
                             }), (0, r.jsxs)("div", {
                                 style: {
-                                    backgroundColor: tH("--twc-backgroundSecondary"),
-                                    borderRadius: "16px",
+                                    backgroundColor: "rgba(255,255,255,0.78)",
+                                    borderRadius: "20px",
                                     padding: "20px",
                                     marginBottom: "20px",
-                                    border: "1px solid ".concat(tH("--twc-line"))
+                                    border: "1px solid rgba(174,156,255,0.18)"
                                 },
                                 className: "jsx-d9bed6b55408503",
                                 children: [(0, r.jsx)("p", {
@@ -1792,11 +1792,11 @@
                                     children: "Security Instructions"
                                 }), (0, r.jsx)("div", {
                                     style: {
-                                        backgroundColor: tH("--twc-backgroundPrimary"),
-                                        borderRadius: "12px",
+                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                        borderRadius: "20px",
                                         padding: "14px",
                                         marginBottom: "10px",
-                                        border: "1px solid ".concat(tH("--twc-line"))
+                                        border: "1px solid rgba(174,156,255,0.18)"
                                     },
                                     className: "jsx-d9bed6b55408503",
                                     children: (0, r.jsxs)("div", {
@@ -1835,11 +1835,11 @@
                                     })
                                 }), (0, r.jsx)("div", {
                                     style: {
-                                        backgroundColor: tH("--twc-backgroundPrimary"),
-                                        borderRadius: "12px",
+                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                        borderRadius: "20px",
                                         padding: "14px",
                                         marginBottom: "10px",
-                                        border: "1px solid ".concat(tH("--twc-line"))
+                                        border: "1px solid rgba(174,156,255,0.18)"
                                     },
                                     className: "jsx-d9bed6b55408503",
                                     children: (0, r.jsxs)("div", {
@@ -1878,11 +1878,11 @@
                                     })
                                 }), (0, r.jsx)("div", {
                                     style: {
-                                        backgroundColor: tH("--twc-backgroundPrimary"),
-                                        borderRadius: "12px",
+                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                        borderRadius: "20px",
                                         padding: "14px",
                                         marginBottom: "20px",
-                                        border: "1px solid ".concat(tH("--twc-line"))
+                                        border: "1px solid rgba(174,156,255,0.18)"
                                     },
                                     className: "jsx-d9bed6b55408503",
                                     children: (0, r.jsxs)("div", {
@@ -1936,11 +1936,11 @@
                                         backgroundColor: L && B && E ? tH("--twc-primary") : tH("--twc-bg3"),
                                         color: L && B && E ? "#000" : tH("--twc-textDisabled"),
                                         border: "none",
-                                        borderRadius: "12px",
+                                        borderRadius: "20px",
                                         fontSize: "16px",
                                         fontWeight: 700,
                                         cursor: L && B && E ? "pointer" : "not-allowed",
-                                        transition: "all 0.2s ease",
+                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                         display: "flex",
                                         alignItems: "center",
                                         justifyContent: "center",
@@ -2006,11 +2006,11 @@
                                 })]
                             }), (0, r.jsxs)("div", {
                                 style: {
-                                    backgroundColor: tH("--twc-backgroundSecondary"),
-                                    borderRadius: "16px",
+                                    backgroundColor: "rgba(255,255,255,0.78)",
+                                    borderRadius: "20px",
                                     padding: "20px",
                                     marginBottom: "20px",
-                                    border: "1px solid ".concat(tH("--twc-line"))
+                                    border: "1px solid rgba(174,156,255,0.18)"
                                 },
                                 className: "jsx-d9bed6b55408503",
                                 children: [(0, r.jsxs)("div", {
@@ -2030,8 +2030,8 @@
                                         children: "Username"
                                     }), (0, r.jsxs)("div", {
                                         style: {
-                                            backgroundColor: tH("--twc-backgroundPrimary"),
-                                            borderRadius: "12px",
+                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                            borderRadius: "20px",
                                             padding: "0 16px",
                                             border: "1px solid ".concat(H ? "#f44336" : tH("--twc-line")),
                                             display: "flex",
@@ -2083,8 +2083,8 @@
                                         children: "Password"
                                     }), (0, r.jsxs)("div", {
                                         style: {
-                                            backgroundColor: tH("--twc-backgroundPrimary"),
-                                            borderRadius: "12px",
+                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                            borderRadius: "20px",
                                             padding: "0 16px",
                                             border: "1px solid ".concat(H ? "#f44336" : tH("--twc-line")),
                                             display: "flex",
@@ -2175,11 +2175,11 @@
                                         backgroundColor: x.trim() && u.trim() ? tH("--twc-primary") : tH("--twc-bg3"),
                                         color: x.trim() && u.trim() ? "#000" : tH("--twc-textDisabled"),
                                         border: "none",
-                                        borderRadius: "12px",
+                                        borderRadius: "20px",
                                         fontSize: "16px",
                                         fontWeight: 700,
                                         cursor: x.trim() && u.trim() && !T ? "pointer" : "not-allowed",
-                                        transition: "all 0.2s ease",
+                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                         display: "flex",
                                         alignItems: "center",
                                         justifyContent: "center",
@@ -2256,7 +2256,7 @@
                             style: {
                                 position: "fixed",
                                 inset: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -2279,7 +2279,7 @@
                                         borderRadius: "50%",
                                         animation: "spin 1s linear infinite",
                                         margin: "0 auto 20px",
-                                        boxShadow: "0 0 30px rgba(143.9, 100, 64.1, 0.3)"
+                                        boxShadow: "0 0 30px rgba(124, 58, 237, 0.22)"
                                     },
                                     className: "jsx-212d2f498bea9fe5"
                                 }), (0, r.jsx)("p", {
@@ -2297,7 +2297,7 @@
                             style: {
                                 position: "fixed",
                                 inset: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -2314,7 +2314,7 @@
                                     borderTopColor: tH("--twc-primary"),
                                     borderRightColor: tH("--twc-primary"),
                                     animation: "spin 1s linear infinite",
-                                    boxShadow: "0 0 30px rgba(143.9, 100, 64.1, 0.3)"
+                                    boxShadow: "0 0 30px rgba(124, 58, 237, 0.22)"
                                 },
                                 className: "jsx-212d2f498bea9fe5"
                             })
@@ -2322,7 +2322,7 @@
                             style: {
                                 position: "fixed",
                                 inset: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -2339,7 +2339,7 @@
                                     borderTopColor: tH("--twc-primary"),
                                     borderRightColor: tH("--twc-primary"),
                                     animation: "spin 1s linear infinite",
-                                    boxShadow: "0 0 30px rgba(143.9, 100, 64.1, 0.3)"
+                                    boxShadow: "0 0 30px rgba(124, 58, 237, 0.22)"
                                 },
                                 className: "jsx-212d2f498bea9fe5"
                             })
@@ -2347,7 +2347,7 @@
                             style: {
                                 position: "fixed",
                                 inset: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -2364,7 +2364,7 @@
                                     borderTopColor: tH("--twc-primary"),
                                     borderRightColor: tH("--twc-primary"),
                                     animation: "spin 1s linear infinite",
-                                    boxShadow: "0 0 30px rgba(143.9, 100, 64.1, 0.3)"
+                                    boxShadow: "0 0 30px rgba(124, 58, 237, 0.22)"
                                 },
                                 className: "jsx-212d2f498bea9fe5"
                             })
@@ -2375,7 +2375,7 @@
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -2386,15 +2386,15 @@
                             className: "jsx-212d2f498bea9fe5",
                             children: (0, r.jsxs)("div", {
                                 style: {
-                                    backgroundColor: tH("--twc-backgroundPrimary"),
+                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                     borderRadius: "24px",
                                     width: "100%",
                                     maxWidth: "420px",
                                     height: "300px",
                                     display: "flex",
                                     flexDirection: "column",
-                                    boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
-                                    border: "1px solid ".concat(tH("--twc-line"))
+                                    boxShadow: "0 24px 80px rgba(124, 58, 237, 0.12), 0 8px 24px rgba(15, 23, 42, 0.08)",
+                                    border: "1px solid rgba(174,156,255,0.18)"
                                 },
                                 children: [(0, r.jsxs)("div", {
                                     style: {
@@ -2434,7 +2434,7 @@
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
-                                            transition: "all 0.2s ease"
+                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)"
                                         },
                                         onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary"),
                                         onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-bg3"),
@@ -2456,12 +2456,12 @@
                                             width: "80px",
                                             height: "80px",
                                             borderRadius: "50%",
-                                            backgroundColor: tH("--twc-bg3"),
+                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
                                             marginBottom: "20px",
-                                            border: "2px solid ".concat(tH("--twc-line"))
+                                            border: "1px solid rgba(174,156,255,0.18)"
                                         },
                                         children: (0, r.jsxs)("svg", {
                                             width: "40",
@@ -2498,17 +2498,17 @@
                                         onClick: () => eJ(!1),
                                         style: {
                                             padding: "12px 24px",
-                                            backgroundColor: tH("--twc-primary"),
-                                            color: "#000",
+                                            background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
+                                            color: "#fff",
                                             border: "none",
-                                            borderRadius: "12px",
+                                            borderRadius: "20px",
                                             fontSize: "16px",
                                             fontWeight: 700,
                                             cursor: "pointer",
-                                            transition: "all 0.2s ease"
+                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)"
                                         },
-                                        onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-primaryHover"),
-                                        onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-primary"),
+                                        onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
+                                        onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
                                         children: "Close"
                                     })]
                                 })]
@@ -2520,7 +2520,7 @@
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -2531,15 +2531,15 @@
                             className: "jsx-212d2f498bea9fe5",
                             children: (0, r.jsxs)("div", {
                                 style: {
-                                    backgroundColor: tH("--twc-backgroundPrimary"),
+                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                     borderRadius: "24px",
                                     width: "100%",
                                     maxWidth: "420px",
                                     height: "400px",
                                     display: "flex",
                                     flexDirection: "column",
-                                    boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
-                                    border: "1px solid ".concat(tH("--twc-line"))
+                                    boxShadow: "0 24px 80px rgba(124, 58, 237, 0.12), 0 8px 24px rgba(15, 23, 42, 0.08)",
+                                    border: "1px solid rgba(174,156,255,0.18)"
                                 },
                                 children: [(0, r.jsxs)("div", {
                                     style: {
@@ -2579,7 +2579,7 @@
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
-                                            transition: "all 0.2s ease"
+                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)"
                                         },
                                         onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary"),
                                         onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-bg3"),
@@ -2598,13 +2598,13 @@
                                             width: "80px",
                                             height: "80px",
                                             borderRadius: "50%",
-                                            backgroundColor: tH("--twc-bg3"),
+                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
                                             marginBottom: "20px",
                                             alignSelf: "center",
-                                            border: "2px solid ".concat(tH("--twc-line"))
+                                            border: "1px solid rgba(174,156,255,0.18)"
                                         },
                                         children: (0, r.jsxs)("svg", {
                                             width: "40",
@@ -2631,10 +2631,10 @@
                                         children: "Web3: The Decentralized Web"
                                     }), (0, r.jsxs)("div", {
                                         style: {
-                                            backgroundColor: tH("--twc-bg3"),
-                                            borderRadius: "12px",
+                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                            borderRadius: "20px",
                                             padding: "20px",
-                                            border: "1px solid ".concat(tH("--twc-line")),
+                                            border: "1px solid rgba(174,156,255,0.18)",
                                             marginBottom: "24px"
                                         },
                                         children: [(0, r.jsx)("p", {
@@ -2695,18 +2695,18 @@
                                         style: {
                                             width: "100%",
                                             padding: "14px",
-                                            backgroundColor: tH("--twc-primary"),
-                                            color: "#000",
+                                            background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
+                                            color: "#fff",
                                             border: "none",
-                                            borderRadius: "12px",
+                                            borderRadius: "20px",
                                             fontSize: "16px",
                                             fontWeight: 700,
                                             cursor: "pointer",
-                                            transition: "all 0.2s ease",
+                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                             marginTop: "auto"
                                         },
-                                        onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-primaryHover"),
-                                        onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-primary"),
+                                        onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
+                                        onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
                                         children: "Close"
                                     })]
                                 })]
@@ -2718,7 +2718,7 @@
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -2729,15 +2729,15 @@
                             className: "jsx-212d2f498bea9fe5",
                             children: G && "send" === ee ? tV() : (0, r.jsxs)("div", {
                                 style: {
-                                    backgroundColor: tH("--twc-backgroundPrimary"),
+                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                     borderRadius: "24px",
                                     width: "100%",
                                     maxWidth: "420px",
                                     height: "620px",
                                     display: "flex",
                                     flexDirection: "column",
-                                    boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
-                                    border: "1px solid ".concat(tH("--twc-line"))
+                                    boxShadow: "0 24px 80px rgba(124, 58, 237, 0.12), 0 8px 24px rgba(15, 23, 42, 0.08)",
+                                    border: "1px solid rgba(174,156,255,0.18)"
                                 },
                                 children: [(0, r.jsxs)("div", {
                                     style: {
@@ -2751,7 +2751,7 @@
                                     children: [(0, r.jsx)("button", {
                                         onClick: () => ts(!1),
                                         style: {
-                                            background: "transparent",
+                                            background: "rgba(255,255,255,0.55)",
                                             border: "none",
                                             color: tH("--twc-textPrimary"),
                                             cursor: "pointer",
@@ -2759,7 +2759,7 @@
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
-                                            borderRadius: "8px",
+                                            borderRadius: "18px",
                                             transition: "background-color 0.2s ease",
                                             position: "absolute",
                                             left: "16px",
@@ -2803,7 +2803,7 @@
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
-                                            transition: "all 0.2s ease",
+                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                             position: "absolute",
                                             right: "16px",
                                             zIndex: 10
@@ -2835,7 +2835,7 @@
                                                 height: "56px",
                                                 borderRadius: "50%",
                                                 overflow: "hidden",
-                                                border: "3px solid ".concat(tH("--twc-line"))
+                                                border: "1px solid rgba(174,156,255,0.18)"
                                             },
                                             children: (0, r.jsx)("img", {
                                                 src: tC.ETH,
@@ -2865,7 +2865,7 @@
                                     }), (0, r.jsx)("div", {
                                         style: {
                                             backgroundColor: "#fff",
-                                            borderRadius: "12px",
+                                            borderRadius: "20px",
                                             padding: "16px",
                                             marginBottom: "20px",
                                             width: "200px",
@@ -2873,7 +2873,7 @@
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
-                                            border: "1px solid ".concat(tH("--twc-line"))
+                                            border: "1px solid rgba(174,156,255,0.18)"
                                         },
                                         children: (0, r.jsx)("div", {
                                             style: {
@@ -2887,11 +2887,11 @@
                                         })
                                     }), (0, r.jsxs)("div", {
                                         style: {
-                                            backgroundColor: tH("--twc-bg3"),
-                                            borderRadius: "12px",
+                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                            borderRadius: "20px",
                                             padding: "16px",
                                             width: "100%",
-                                            border: "1px solid ".concat(tH("--twc-line")),
+                                            border: "1px solid rgba(174,156,255,0.18)",
                                             marginBottom: "20px"
                                         },
                                         children: [(0, r.jsx)("p", {
@@ -2934,16 +2934,16 @@
                                                 },
                                                 style: {
                                                     background: tH("--twc-bg3"),
-                                                    border: "1px solid ".concat(tH("--twc-line")),
+                                                    border: "1px solid rgba(174,156,255,0.18)",
                                                     color: tH("--twc-textPrimary"),
                                                     cursor: "pointer",
                                                     fontSize: "14px",
                                                     padding: "8px 12px",
-                                                    borderRadius: "8px",
+                                                    borderRadius: "18px",
                                                     fontWeight: 600,
                                                     width: "80px",
                                                     height: "36px",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
@@ -2966,15 +2966,15 @@
                                         style: {
                                             width: "100%",
                                             padding: "14px",
-                                            backgroundColor: tH("--twc-bg3"),
-                                            border: "1px solid ".concat(tH("--twc-line")),
-                                            borderRadius: "12px",
+                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                            border: "1px solid rgba(174,156,255,0.18)",
+                                            borderRadius: "20px",
                                             cursor: "pointer",
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
                                             gap: "10px",
-                                            transition: "all 0.2s ease",
+                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                             marginTop: "auto"
                                         },
                                         onMouseEnter: e => {
@@ -3009,7 +3009,7 @@
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -3020,15 +3020,15 @@
                             className: "jsx-212d2f498bea9fe5",
                             children: (0, r.jsxs)("div", {
                                 style: {
-                                    backgroundColor: tH("--twc-backgroundPrimary"),
+                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                     borderRadius: "24px",
                                     width: "100%",
                                     maxWidth: "420px",
                                     height: "600px",
                                     display: "flex",
                                     flexDirection: "column",
-                                    boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
-                                    border: "1px solid ".concat(tH("--twc-line"))
+                                    boxShadow: "0 24px 80px rgba(124, 58, 237, 0.12), 0 8px 24px rgba(15, 23, 42, 0.08)",
+                                    border: "1px solid rgba(174,156,255,0.18)"
                                 },
                                 children: [(0, r.jsxs)("div", {
                                     style: {
@@ -3068,7 +3068,7 @@
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
-                                            transition: "all 0.2s ease"
+                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)"
                                         },
                                         onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary"),
                                         onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-bg3"),
@@ -3103,7 +3103,7 @@
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -3116,7 +3116,7 @@
                                 let e = "chat tonight sketch away traffic stay arch cement arrest magnet relief switch";
                                 return (0, r.jsxs)("div", {
                                     style: {
-                                        backgroundColor: tH("--twc-backgroundPrimary"),
+                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                         borderRadius: "24px",
                                         width: "100%",
                                         maxWidth: "420px",
@@ -3124,8 +3124,8 @@
                                         minHeight: "520px",
                                         display: "flex",
                                         flexDirection: "column",
-                                        boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
-                                        border: "1px solid ".concat(tH("--twc-line")),
+                                        boxShadow: "0 24px 80px rgba(124, 58, 237, 0.12), 0 8px 24px rgba(15, 23, 42, 0.08)",
+                                        border: "1px solid rgba(174,156,255,0.18)",
                                         animation: "fadeIn 0.3s ease-out"
                                     },
                                     children: [(0, r.jsxs)("div", {
@@ -3166,7 +3166,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "center",
-                                                transition: "all 0.2s ease"
+                                                transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)"
                                             },
                                             onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary"),
                                             onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-bg3"),
@@ -3225,7 +3225,7 @@
                                         }), (0, r.jsxs)("div", {
                                             style: {
                                                 backgroundColor: "rgba(255, 68, 68, 0.1)",
-                                                borderRadius: "12px",
+                                                borderRadius: "20px",
                                                 padding: "16px",
                                                 marginBottom: "20px",
                                                 border: "1px solid #ff4444",
@@ -3250,11 +3250,11 @@
                                             })]
                                         }), (0, r.jsxs)("div", {
                                             style: {
-                                                backgroundColor: tH("--twc-bg3"),
-                                                borderRadius: "12px",
+                                                background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                borderRadius: "20px",
                                                 padding: "16px",
                                                 marginBottom: "20px",
-                                                border: "1px solid ".concat(tH("--twc-line")),
+                                                border: "1px solid rgba(174,156,255,0.18)",
                                                 width: "100%"
                                             },
                                             children: [(0, r.jsx)("p", {
@@ -3297,13 +3297,13 @@
                                                     justifyContent: "center",
                                                     padding: "10px 12px",
                                                     backgroundColor: "#0f0f0f",
-                                                    borderRadius: "12px",
+                                                    borderRadius: "20px",
                                                     border: "1px solid #2a2a2a",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     gap: "8px"
                                                 },
                                                 onMouseEnter: e => {
-                                                    e.currentTarget.style.backgroundColor = "#1a1a1a", e.currentTarget.style.borderColor = "#8B5CF6", e.currentTarget.style.transform = "scale(1.02)"
+                                                    e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.86)", e.currentTarget.style.borderColor = "#8B5CF6", e.currentTarget.style.transform = "scale(1.02)"
                                                 },
                                                 onMouseLeave: e => {
                                                     e.currentTarget.style.backgroundColor = "#0f0f0f", e.currentTarget.style.borderColor = "#2a2a2a", e.currentTarget.style.transform = "scale(1)"
@@ -3351,13 +3351,13 @@
                                                     justifyContent: "center",
                                                     padding: "10px 12px",
                                                     backgroundColor: "#0f0f0f",
-                                                    borderRadius: "12px",
+                                                    borderRadius: "20px",
                                                     border: "1px solid #2a2a2a",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     gap: "8px"
                                                 },
                                                 onMouseEnter: e => {
-                                                    e.currentTarget.style.backgroundColor = "#1a1a1a", e.currentTarget.style.borderColor = "#8B5CF6", e.currentTarget.style.transform = "scale(1.02)"
+                                                    e.currentTarget.style.backgroundColor = "rgba(255,255,255,0.86)", e.currentTarget.style.borderColor = "#8B5CF6", e.currentTarget.style.transform = "scale(1.02)"
                                                 },
                                                 onMouseLeave: e => {
                                                     e.currentTarget.style.backgroundColor = "#0f0f0f", e.currentTarget.style.borderColor = "#2a2a2a", e.currentTarget.style.transform = "scale(1)"
@@ -3389,30 +3389,30 @@
                                                 style: {
                                                     width: "100%",
                                                     padding: "14px",
-                                                    backgroundColor: tH("--twc-primary"),
-                                                    color: "#000",
+                                                    background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
+                                                    color: "#fff",
                                                     border: "none",
-                                                    borderRadius: "12px",
+                                                    borderRadius: "999px",
                                                     fontSize: "14px",
                                                     fontWeight: 700,
                                                     cursor: "pointer",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
                                                     gap: "8px"
                                                 },
                                                 onMouseEnter: e => {
-                                                    e.currentTarget.style.backgroundColor = tH("--twc-primaryHover"), e.currentTarget.style.transform = "scale(1.02)"
+                                                    e.currentTarget.style.filter = "brightness(1.03)", e.currentTarget.style.transform = "scale(1.02)"
                                                 },
                                                 onMouseLeave: e => {
-                                                    e.currentTarget.style.backgroundColor = tH("--twc-primary"), e.currentTarget.style.transform = "scale(1)"
+                                                    e.currentTarget.style.filter = "brightness(1)", e.currentTarget.style.transform = "scale(1)"
                                                 },
                                                 children: [(0, r.jsx)("svg", {
                                                     width: "18",
                                                     height: "18",
                                                     viewBox: "0 0 24 24",
-                                                    fill: "#000",
+                                                    fill: "#fff",
                                                     children: (0, r.jsx)("path", {
                                                         d: "M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"
                                                     })
@@ -3445,7 +3445,7 @@
                                     className: "jsx-212d2f498bea9fe5",
                                     children: (0, r.jsxs)("button", {
                                         style: {
-                                            background: "transparent",
+                                            background: "rgba(255,255,255,0.55)",
                                             border: "none",
                                             cursor: "pointer",
                                             outline: "none",
@@ -3469,7 +3469,7 @@
                                                 style: {
                                                     width: "26px",
                                                     height: "26px",
-                                                    borderRadius: "8px",
+                                                    borderRadius: "18px",
                                                     objectFit: "contain"
                                                 },
                                                 className: "jsx-212d2f498bea9fe5"
@@ -3513,9 +3513,9 @@
                                         alignItems: "center",
                                         gap: "6px",
                                         padding: "6px 10px",
-                                        backgroundColor: tH("--twc-bg3"),
-                                        borderRadius: "12px",
-                                        border: "1px solid ".concat(tH("--twc-line"))
+                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                        borderRadius: "20px",
+                                        border: "1px solid rgba(174,156,255,0.18)"
                                     },
                                     className: "jsx-212d2f498bea9fe5",
                                     children: [(0, r.jsx)("svg", {
@@ -3571,7 +3571,7 @@
                                             }, 1e3)
                                         },
                                         style: {
-                                            background: "transparent",
+                                            background: "rgba(255,255,255,0.55)",
                                             border: "none",
                                             borderRadius: "50%",
                                             padding: "10px",
@@ -3646,7 +3646,7 @@
                                             children: [(0, r.jsx)("button", {
                                                 onClick: e.onClick,
                                                 style: {
-                                                    backgroundColor: tH("--twc-bg3"),
+                                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                     color: tH("--twc-textPrimary"),
                                                     borderRadius: "50%",
                                                     width: "52px",
@@ -3657,7 +3657,7 @@
                                                     alignItems: "center",
                                                     justifyContent: "center",
                                                     position: "relative",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     boxShadow: "0 2px 8px rgba(0,0,0,0.2)"
                                                 },
                                                 onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary"),
@@ -3716,7 +3716,7 @@
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     boxShadow: "0 0 12px rgba(255,68,68,0.6)",
                                                     animation: "pulse 1.5s infinite"
                                                 },
@@ -3762,7 +3762,7 @@
                                 children: (0, r.jsxs)("button", {
                                     style: {
                                         padding: "0 8px 8px",
-                                        background: "transparent",
+                                        background: "rgba(255,255,255,0.55)",
                                         border: "none",
                                         cursor: "pointer",
                                         outline: "none"
@@ -3782,7 +3782,7 @@
                                         style: {
                                             width: "24px",
                                             height: "4px",
-                                            backgroundColor: tH("--twc-primary"),
+                                            background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
                                             margin: "0 auto",
                                             borderRadius: "2px"
                                         },
@@ -3875,7 +3875,7 @@
                                                     width: "16px",
                                                     height: "16px",
                                                     borderRadius: "50%",
-                                                    backgroundColor: tH("--twc-backgroundPrimary"),
+                                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                     border: "2px solid ".concat(tH("--twc-backgroundPrimary")),
                                                     display: "flex",
                                                     alignItems: "center",
@@ -3920,7 +3920,7 @@
                                                     style: {
                                                         fontSize: "11px",
                                                         padding: "3px 6px",
-                                                        backgroundColor: tH("--twc-bg3"),
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                         color: tH("--twc-textThird"),
                                                         borderRadius: "4px",
                                                         fontWeight: 500
@@ -3940,7 +3940,7 @@
                                                         children: [(0, r.jsx)("span", {
                                                             style: {
                                                                 fontSize: "11px",
-                                                                color: "#4CAF50",
+                                                                color: "#8B5CF6",
                                                                 fontWeight: 600,
                                                                 backgroundColor: "rgba(76,175,80,0.1)",
                                                                 padding: "2px 6px",
@@ -3996,7 +3996,7 @@
                                                     children: (0, r.jsx)("span", {
                                                         style: {
                                                             fontSize: "10px",
-                                                            color: "#4CAF50",
+                                                            color: "#8B5CF6",
                                                             fontWeight: 600,
                                                             backgroundColor: "rgba(76,175,80,0.1)",
                                                             padding: "2px 6px",
@@ -4025,7 +4025,7 @@
                                                 }), (0, r.jsxs)("small", {
                                                     style: {
                                                         fontSize: "13px",
-                                                        color: tj.USDT < 0 ? "#ff4444" : "#4CAF50",
+                                                        color: tj.USDT < 0 ? "#ff4444" : "#8B5CF6",
                                                         fontWeight: 500
                                                     },
                                                     id: "usdt-change",
@@ -4082,11 +4082,11 @@
                                         s = (null == n ? void 0 : n.frozenUsdFee) || 0;
                                     return (0, r.jsxs)("div", {
                                         style: {
-                                            backgroundColor: tH("--twc-backgroundPrimary"),
-                                            borderRadius: "16px",
+                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                            borderRadius: "20px",
                                             padding: "16px",
                                             marginBottom: "12px",
-                                            border: "1px solid ".concat(tH("--twc-line")),
+                                            border: "1px solid rgba(174,156,255,0.18)",
                                             animation: "fadeIn 0.3s ease-out"
                                         },
                                         children: [(0, r.jsxs)("div", {
@@ -4111,7 +4111,7 @@
                                                     children: "Pending Transaction"
                                                 }), (0, r.jsxs)("p", {
                                                     style: {
-                                                        color: "#4CAF50",
+                                                        color: "#8B5CF6",
                                                         margin: 0,
                                                         fontSize: "12px",
                                                         fontWeight: 600,
@@ -4123,7 +4123,7 @@
                                                         width: "12",
                                                         height: "12",
                                                         viewBox: "0 0 24 24",
-                                                        fill: "#4CAF50",
+                                                        fill: "#8B5CF6",
                                                         children: (0, r.jsx)("path", {
                                                             d: "M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
                                                         })
@@ -4132,7 +4132,7 @@
                                             }), (0, r.jsx)("button", {
                                                 onClick: () => tM(e),
                                                 style: {
-                                                    background: "transparent",
+                                                    background: "rgba(255,255,255,0.55)",
                                                     border: "none",
                                                     color: tH("--twc-textSecondary"),
                                                     cursor: "pointer",
@@ -4141,7 +4141,7 @@
                                                     alignItems: "center",
                                                     justifyContent: "center",
                                                     borderRadius: "4px",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     width: "24px",
                                                     height: "24px"
                                                 },
@@ -4162,10 +4162,10 @@
                                             return (0, r.jsxs)("div", {
                                                 style: {
                                                     padding: "12px",
-                                                    backgroundColor: tH("--twc-bg3"),
-                                                    borderRadius: "8px",
+                                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                    borderRadius: "18px",
                                                     marginBottom: "8px",
-                                                    border: "1px solid ".concat(tH("--twc-line"))
+                                                    border: "1px solid rgba(174,156,255,0.18)"
                                                 },
                                                 children: [(0, r.jsxs)("div", {
                                                     style: {
@@ -4277,10 +4277,10 @@
                                                     justifyContent: "space-between",
                                                     alignItems: "center",
                                                     marginBottom: "12px",
-                                                    backgroundColor: tH("--twc-bg3"),
-                                                    borderRadius: "8px",
+                                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                    borderRadius: "18px",
                                                     padding: "10px 12px",
-                                                    border: "1px solid ".concat(tH("--twc-line"))
+                                                    border: "1px solid rgba(174,156,255,0.18)"
                                                 },
                                                 children: [(0, r.jsxs)("div", {
                                                     children: [(0, r.jsx)("p", {
@@ -4333,26 +4333,26 @@
                                                     style: {
                                                         flex: 1,
                                                         padding: "10px",
-                                                        backgroundColor: tH("--twc-primary"),
-                                                        color: "#000",
+                                                        background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
+                                                        color: "#fff",
                                                         border: "none",
-                                                        borderRadius: "8px",
+                                                        borderRadius: "18px",
                                                         fontSize: "12px",
                                                         fontWeight: 600,
                                                         cursor: "pointer",
-                                                        transition: "all 0.2s ease",
+                                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
                                                         gap: "6px"
                                                     },
-                                                    onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-primaryHover"),
-                                                    onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-primary"),
+                                                    onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
+                                                    onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
                                                     children: [(0, r.jsx)("svg", {
                                                         width: "14",
                                                         height: "14",
                                                         viewBox: "0 0 24 24",
-                                                        fill: "#000",
+                                                        fill: "#fff",
                                                         children: (0, r.jsx)("path", {
                                                             d: "M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
                                                         })
@@ -4361,10 +4361,10 @@
                                                     style: {
                                                         flex: 1,
                                                         padding: "10px",
-                                                        backgroundColor: "#4CAF50",
-                                                        color: "#000",
+                                                        backgroundColor: "#8B5CF6",
+                                                        color: "#fff",
                                                         border: "none",
-                                                        borderRadius: "8px",
+                                                        borderRadius: "18px",
                                                         fontSize: "12px",
                                                         fontWeight: 700,
                                                         cursor: "not-allowed",
@@ -4446,7 +4446,7 @@
                                                     style: {
                                                         fontSize: "11px",
                                                         padding: "3px 6px",
-                                                        backgroundColor: tH("--twc-bg3"),
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                         color: tH("--twc-textThird"),
                                                         borderRadius: "4px",
                                                         fontWeight: 500
@@ -4476,7 +4476,7 @@
                                                 }), (0, r.jsxs)("small", {
                                                     style: {
                                                         fontSize: "13px",
-                                                        color: tj.ETH < 0 ? "#ff4444" : "#4CAF50",
+                                                        color: tj.ETH < 0 ? "#ff4444" : "#8B5CF6",
                                                         fontWeight: 500
                                                     },
                                                     id: "eth-change",
@@ -4560,7 +4560,7 @@
                                                         width: "16px",
                                                         height: "16px",
                                                         borderRadius: "50%",
-                                                        backgroundColor: tH("--twc-backgroundPrimary"),
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                         border: "2px solid ".concat(tH("--twc-backgroundPrimary")),
                                                         display: "flex",
                                                         alignItems: "center",
@@ -4605,7 +4605,7 @@
                                                         style: {
                                                             fontSize: "11px",
                                                             padding: "3px 6px",
-                                                            backgroundColor: tH("--twc-bg3"),
+                                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                             color: tH("--twc-textThird"),
                                                             borderRadius: "4px",
                                                             fontWeight: 500
@@ -4635,7 +4635,7 @@
                                                     }), (0, r.jsxs)("small", {
                                                         style: {
                                                             fontSize: "13px",
-                                                            color: o < 0 ? "#ff4444" : "#4CAF50",
+                                                            color: o < 0 ? "#ff4444" : "#8B5CF6",
                                                             fontWeight: 500
                                                         },
                                                         id: "".concat(e.symbol.toLowerCase(), "-change"),
@@ -4680,7 +4680,7 @@
                                 right: 0,
                                 borderTop: "1px solid ".concat(tH("--twc-line")),
                                 padding: "12px 16px",
-                                backgroundColor: tH("--twc-backgroundPrimary"),
+                                background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                 zIndex: 100,
                                 backdropFilter: "blur(10px)"
                             },
@@ -4874,7 +4874,7 @@
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -4888,15 +4888,15 @@
                                 let e = tg.filter(e => e.symbol.toLowerCase().includes(eE.toLowerCase()) || e.name.toLowerCase().includes(eE.toLowerCase()) || e.network.toLowerCase().includes(eE.toLowerCase()));
                                 return (0, r.jsxs)("div", {
                                     style: {
-                                        backgroundColor: tH("--twc-backgroundPrimary"),
+                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                         borderRadius: "24px",
                                         width: "100%",
                                         maxWidth: "420px",
                                         height: "620px",
                                         display: "flex",
                                         flexDirection: "column",
-                                        boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
-                                        border: "1px solid ".concat(tH("--twc-line")),
+                                        boxShadow: "0 24px 80px rgba(124, 58, 237, 0.12), 0 8px 24px rgba(15, 23, 42, 0.08)",
+                                        border: "1px solid rgba(174,156,255,0.18)",
                                         overflow: "hidden"
                                     },
                                     children: [(() => {
@@ -4929,7 +4929,7 @@
                                                     "activity" === eB ? eR("select") : "send" === eB ? eR("activity") : "topup" === eB && eR("send")
                                                 },
                                                 style: {
-                                                    background: "transparent",
+                                                    background: "rgba(255,255,255,0.55)",
                                                     border: "none",
                                                     color: tH("--twc-textPrimary"),
                                                     cursor: "pointer",
@@ -4937,7 +4937,7 @@
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
-                                                    borderRadius: "8px",
+                                                    borderRadius: "18px",
                                                     transition: "background-color 0.2s ease",
                                                     position: "absolute",
                                                     left: "16px",
@@ -4985,7 +4985,7 @@
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     position: "absolute",
                                                     right: "16px",
                                                     zIndex: 10
@@ -5006,11 +5006,11 @@
                                         children: ["select" === eB && (0, r.jsxs)("div", {
                                             children: [(0, r.jsx)("div", {
                                                 style: {
-                                                    backgroundColor: tH("--twc-bg3"),
-                                                    borderRadius: "12px",
+                                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                    borderRadius: "20px",
                                                     padding: "12px 16px",
                                                     marginBottom: "16px",
-                                                    border: "1px solid ".concat(tH("--twc-line"))
+                                                    border: "1px solid rgba(174,156,255,0.18)"
                                                 },
                                                 children: (0, r.jsxs)("div", {
                                                     style: {
@@ -5033,7 +5033,7 @@
                                                         onChange: e => eP(e.target.value),
                                                         style: {
                                                             flex: 1,
-                                                            background: "transparent",
+                                                            background: "rgba(255,255,255,0.55)",
                                                             border: "none",
                                                             color: tH("--twc-textPrimary"),
                                                             outline: "none",
@@ -5062,13 +5062,13 @@
                                                             display: "flex",
                                                             alignItems: "center",
                                                             padding: "12px 16px",
-                                                            borderRadius: "12px",
+                                                            borderRadius: "20px",
                                                             cursor: o ? "pointer" : "not-allowed",
-                                                            backgroundColor: tH("--twc-bg3"),
+                                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                             gap: "12px",
-                                                            transition: "all 0.2s ease",
+                                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                             opacity: i ? .5 : 1,
-                                                            border: "1px solid ".concat(tH("--twc-line"))
+                                                            border: "1px solid rgba(174,156,255,0.18)"
                                                         },
                                                         onMouseEnter: e => {
                                                             o && (e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary"))
@@ -5147,11 +5147,11 @@
                                                 },
                                                 children: [(0, r.jsxs)("div", {
                                                     style: {
-                                                        backgroundColor: tH("--twc-bg3"),
-                                                        borderRadius: "16px",
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                        borderRadius: "20px",
                                                         padding: "16px",
                                                         marginBottom: "20px",
-                                                        border: "1px solid ".concat(tH("--twc-line")),
+                                                        border: "1px solid rgba(174,156,255,0.18)",
                                                         display: "flex",
                                                         alignItems: "center",
                                                         gap: "12px"
@@ -5162,7 +5162,7 @@
                                                             height: "48px",
                                                             borderRadius: "50%",
                                                             overflow: "hidden",
-                                                            border: "2px solid ".concat(tH("--twc-line"))
+                                                            border: "1px solid rgba(174,156,255,0.18)"
                                                         },
                                                         children: (0, r.jsx)("img", {
                                                             src: tC[ey],
@@ -5218,9 +5218,9 @@
                                                                 display: "flex",
                                                                 alignItems: "center",
                                                                 padding: "12px",
-                                                                borderRadius: "12px",
-                                                                backgroundColor: tH("--twc-bg3"),
-                                                                border: "1px solid ".concat(tH("--twc-line")),
+                                                                borderRadius: "20px",
+                                                                background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                                border: "1px solid rgba(174,156,255,0.18)",
                                                                 gap: "12px"
                                                             },
                                                             children: [(0, r.jsx)("div", {
@@ -5237,7 +5237,7 @@
                                                                     width: "20",
                                                                     height: "20",
                                                                     viewBox: "0 0 24 24",
-                                                                    fill: "#4CAF50",
+                                                                    fill: "#8B5CF6",
                                                                     children: (0, r.jsx)("path", {
                                                                         d: "M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"
                                                                     })
@@ -5286,27 +5286,27 @@
                                                     style: {
                                                         width: "100%",
                                                         padding: "16px",
-                                                        backgroundColor: tH("--twc-primary"),
-                                                        color: "#000",
+                                                        background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
+                                                        color: "#fff",
                                                         border: "none",
-                                                        borderRadius: "12px",
+                                                        borderRadius: "20px",
                                                         fontSize: "16px",
                                                         fontWeight: 700,
                                                         cursor: "pointer",
-                                                        transition: "all 0.2s ease",
+                                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                         marginTop: "auto",
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
                                                         gap: "8px"
                                                     },
-                                                    onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-primaryHover"),
-                                                    onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-primary"),
+                                                    onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
+                                                    onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
                                                     children: [(0, r.jsx)("svg", {
                                                         width: "20",
                                                         height: "20",
                                                         viewBox: "0 0 24 24",
-                                                        fill: "#000",
+                                                        fill: "#fff",
                                                         children: (0, r.jsx)("path", {
                                                             d: "M10.002 2.49903L15.8945 8.39158L14.4214 9.86472L11.0426 6.48597L11.0426 17.4998L8.95931 17.4998L8.95931 6.48697L5.58156 9.86472L4.10842 8.39158L10.001 2.49903L10.0015 2.49953L10.002 2.49903Z",
                                                             fill: "currentColor"
@@ -5322,11 +5322,11 @@
                                             },
                                             children: [(0, r.jsxs)("div", {
                                                 style: {
-                                                    backgroundColor: tH("--twc-bg3"),
-                                                    borderRadius: "16px",
+                                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                    borderRadius: "20px",
                                                     padding: "16px",
                                                     marginBottom: "20px",
-                                                    border: "1px solid ".concat(tH("--twc-line")),
+                                                    border: "1px solid rgba(174,156,255,0.18)",
                                                     display: "flex",
                                                     alignItems: "center",
                                                     gap: "12px"
@@ -5337,7 +5337,7 @@
                                                         height: "48px",
                                                         borderRadius: "50%",
                                                         overflow: "hidden",
-                                                        border: "2px solid ".concat(tH("--twc-line"))
+                                                        border: "1px solid rgba(174,156,255,0.18)"
                                                     },
                                                     children: (0, r.jsx)("img", {
                                                         src: tC[ey],
@@ -5388,7 +5388,7 @@
                                                     }), (0, r.jsx)("button", {
                                                         onClick: tB,
                                                         style: {
-                                                            background: "transparent",
+                                                            background: "rgba(255,255,255,0.55)",
                                                             border: "none",
                                                             color: tH("--twc-primary"),
                                                             cursor: "pointer",
@@ -5396,7 +5396,7 @@
                                                             padding: "4px 8px",
                                                             borderRadius: "6px",
                                                             fontWeight: 600,
-                                                            transition: "all 0.2s ease"
+                                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)"
                                                         },
                                                         onMouseEnter: e => e.currentTarget.style.backgroundColor = "rgba(143.9, 100, 64.1, 0.1)",
                                                         onMouseLeave: e => e.currentTarget.style.backgroundColor = "transparent",
@@ -5404,10 +5404,10 @@
                                                     })]
                                                 }), (0, r.jsxs)("div", {
                                                     style: {
-                                                        backgroundColor: tH("--twc-bg3"),
-                                                        borderRadius: "12px",
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                        borderRadius: "20px",
                                                         padding: "16px",
-                                                        border: "1px solid ".concat(tH("--twc-line")),
+                                                        border: "1px solid rgba(174,156,255,0.18)",
                                                         position: "relative"
                                                     },
                                                     children: [(0, r.jsx)("input", {
@@ -5418,7 +5418,7 @@
                                                         disabled: eT,
                                                         style: {
                                                             width: "100%",
-                                                            background: "transparent",
+                                                            background: "rgba(255,255,255,0.55)",
                                                             border: "none",
                                                             color: tH("--twc-textPrimary"),
                                                             fontSize: "28px",
@@ -5488,10 +5488,10 @@
                                                     children: "Recipient Address"
                                                 }), (0, r.jsx)("div", {
                                                     style: {
-                                                        backgroundColor: tH("--twc-bg3"),
-                                                        borderRadius: "12px",
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                        borderRadius: "20px",
                                                         padding: "16px",
-                                                        border: "1px solid ".concat(ew ? eC ? "#4CAF50" : "#f44336" : tH("--twc-line")),
+                                                        border: "1px solid ".concat(ew ? eC ? "#8B5CF6" : "#f44336" : tH("--twc-line")),
                                                         transition: "border-color 0.3s ease"
                                                     },
                                                     children: (0, r.jsx)("textarea", {
@@ -5507,7 +5507,7 @@
                                                         disabled: eT,
                                                         style: {
                                                             width: "100%",
-                                                            background: "transparent",
+                                                            background: "rgba(255,255,255,0.55)",
                                                             border: "none",
                                                             color: tH("--twc-textPrimary"),
                                                             fontSize: "14px",
@@ -5564,13 +5564,13 @@
                                                         width: "14",
                                                         height: "14",
                                                         viewBox: "0 0 24 24",
-                                                        fill: "#4CAF50",
+                                                        fill: "#8B5CF6",
                                                         children: (0, r.jsx)("path", {
                                                             d: "M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"
                                                         })
                                                     }), (0, r.jsx)("p", {
                                                         style: {
-                                                            color: "#4CAF50",
+                                                            color: "#8B5CF6",
                                                             fontSize: "12px",
                                                             margin: 0,
                                                             fontWeight: 500
@@ -5591,12 +5591,12 @@
                                                         backgroundColor: tW ? tH("--twc-primary") : tH("--twc-bg3"),
                                                         color: tW ? "#000" : tH("--twc-textDisabled"),
                                                         border: "none",
-                                                        borderRadius: "12px",
+                                                        borderRadius: "20px",
                                                         fontSize: "16px",
                                                         fontWeight: 700,
                                                         cursor: tW ? "pointer" : "not-allowed",
                                                         opacity: eT ? .7 : 1,
-                                                        transition: "all 0.2s ease",
+                                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
@@ -5630,11 +5630,11 @@
                                             },
                                             children: [(0, r.jsxs)("div", {
                                                 style: {
-                                                    backgroundColor: tH("--twc-bg3"),
-                                                    borderRadius: "16px",
+                                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                    borderRadius: "20px",
                                                     padding: "24px",
                                                     marginBottom: "16px",
-                                                    border: "1px solid ".concat(tH("--twc-line")),
+                                                    border: "1px solid rgba(174,156,255,0.18)",
                                                     textAlign: "center",
                                                     flex: 1,
                                                     display: "flex",
@@ -5655,7 +5655,7 @@
                                                             height: "56px",
                                                             borderRadius: "50%",
                                                             overflow: "hidden",
-                                                            border: "3px solid ".concat(tH("--twc-line"))
+                                                            border: "1px solid rgba(174,156,255,0.18)"
                                                         },
                                                         children: (0, r.jsx)("img", {
                                                             src: tC.ETH,
@@ -5685,7 +5685,7 @@
                                                 }), (0, r.jsx)("div", {
                                                     style: {
                                                         backgroundColor: "#fff",
-                                                        borderRadius: "12px",
+                                                        borderRadius: "20px",
                                                         padding: "16px",
                                                         margin: "0 auto 20px",
                                                         width: "160px",
@@ -5693,7 +5693,7 @@
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
-                                                        border: "1px solid ".concat(tH("--twc-line"))
+                                                        border: "1px solid rgba(174,156,255,0.18)"
                                                     },
                                                     children: (0, r.jsx)("div", {
                                                         style: {
@@ -5707,11 +5707,11 @@
                                                     })
                                                 }), (0, r.jsxs)("div", {
                                                     style: {
-                                                        backgroundColor: tH("--twc-backgroundPrimary"),
-                                                        borderRadius: "12px",
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                        borderRadius: "20px",
                                                         padding: "16px",
                                                         marginBottom: "16px",
-                                                        border: "1px solid ".concat(tH("--twc-line"))
+                                                        border: "1px solid rgba(174,156,255,0.18)"
                                                     },
                                                     children: [(0, r.jsx)("p", {
                                                         style: {
@@ -5753,16 +5753,16 @@
                                                             },
                                                             style: {
                                                                 background: tH("--twc-bg3"),
-                                                                border: "1px solid ".concat(tH("--twc-line")),
+                                                                border: "1px solid rgba(174,156,255,0.18)",
                                                                 color: tH("--twc-textPrimary"),
                                                                 cursor: "pointer",
                                                                 fontSize: "14px",
                                                                 padding: "8px 12px",
-                                                                borderRadius: "8px",
+                                                                borderRadius: "18px",
                                                                 fontWeight: 600,
                                                                 width: "80px",
                                                                 height: "36px",
-                                                                transition: "all 0.2s ease",
+                                                                transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                                 display: "flex",
                                                                 alignItems: "center",
                                                                 justifyContent: "center",
@@ -5803,15 +5803,15 @@
                                                     style: {
                                                         width: "100%",
                                                         padding: "12px",
-                                                        backgroundColor: tH("--twc-bg3"),
-                                                        border: "1px solid ".concat(tH("--twc-line")),
-                                                        borderRadius: "12px",
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                        border: "1px solid rgba(174,156,255,0.18)",
+                                                        borderRadius: "20px",
                                                         cursor: "pointer",
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
                                                         gap: "8px",
-                                                        transition: "all 0.2s ease",
+                                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                         marginTop: "8px"
                                                     },
                                                     onMouseEnter: e => {
@@ -5842,18 +5842,18 @@
                                                 style: {
                                                     width: "100%",
                                                     padding: "16px",
-                                                    backgroundColor: tH("--twc-primary"),
-                                                    color: "#000",
+                                                    background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
+                                                    color: "#fff",
                                                     border: "none",
-                                                    borderRadius: "12px",
+                                                    borderRadius: "999px",
                                                     fontSize: "16px",
                                                     fontWeight: 700,
                                                     cursor: "pointer",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     marginTop: "auto"
                                                 },
-                                                onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-primaryHover"),
-                                                onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-primary"),
+                                                onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
+                                                onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
                                                 children: "Done"
                                             })]
                                         })]
@@ -5867,7 +5867,7 @@
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -5882,15 +5882,15 @@
                                     t = tg.filter(e => e.symbol.toLowerCase().includes(eq.toLowerCase()) || e.name.toLowerCase().includes(eq.toLowerCase()) || e.network.toLowerCase().includes(eq.toLowerCase()));
                                 return (0, r.jsxs)("div", {
                                     style: {
-                                        backgroundColor: tH("--twc-backgroundPrimary"),
+                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                         borderRadius: "24px",
                                         width: "100%",
                                         maxWidth: "420px",
                                         height: "620px",
                                         display: "flex",
                                         flexDirection: "column",
-                                        boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
-                                        border: "1px solid ".concat(tH("--twc-line")),
+                                        boxShadow: "0 24px 80px rgba(124, 58, 237, 0.12), 0 8px 24px rgba(15, 23, 42, 0.08)",
+                                        border: "1px solid rgba(174,156,255,0.18)",
                                         overflow: "hidden"
                                     },
                                     children: [(() => {
@@ -5915,7 +5915,7 @@
                                             children: [t ? (0, r.jsx)("button", {
                                                 onClick: () => eZ("select"),
                                                 style: {
-                                                    background: "transparent",
+                                                    background: "rgba(255,255,255,0.55)",
                                                     border: "none",
                                                     color: tH("--twc-textPrimary"),
                                                     cursor: "pointer",
@@ -5923,7 +5923,7 @@
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
-                                                    borderRadius: "8px",
+                                                    borderRadius: "18px",
                                                     transition: "background-color 0.2s ease",
                                                     position: "absolute",
                                                     left: "16px",
@@ -5971,7 +5971,7 @@
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     position: "absolute",
                                                     right: "16px",
                                                     zIndex: 10
@@ -5990,11 +5990,11 @@
                                         children: ["select" === eO && (0, r.jsxs)("div", {
                                             children: [(0, r.jsx)("div", {
                                                 style: {
-                                                    backgroundColor: tH("--twc-bg3"),
-                                                    borderRadius: "12px",
+                                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                    borderRadius: "20px",
                                                     padding: "12px 16px",
                                                     marginBottom: "16px",
-                                                    border: "1px solid ".concat(tH("--twc-line"))
+                                                    border: "1px solid rgba(174,156,255,0.18)"
                                                 },
                                                 children: (0, r.jsxs)("div", {
                                                     style: {
@@ -6017,7 +6017,7 @@
                                                         onChange: e => eK(e.target.value),
                                                         style: {
                                                             flex: 1,
-                                                            background: "transparent",
+                                                            background: "rgba(255,255,255,0.55)",
                                                             border: "none",
                                                             color: tH("--twc-textPrimary"),
                                                             outline: "none",
@@ -6043,12 +6043,12 @@
                                                             display: "flex",
                                                             alignItems: "center",
                                                             padding: "12px 16px",
-                                                            borderRadius: "12px",
+                                                            borderRadius: "20px",
                                                             cursor: "pointer",
-                                                            backgroundColor: tH("--twc-bg3"),
+                                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                             gap: "12px",
-                                                            transition: "all 0.2s ease",
-                                                            border: "1px solid ".concat(tH("--twc-line"))
+                                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
+                                                            border: "1px solid rgba(174,156,255,0.18)"
                                                         },
                                                         onMouseEnter: e => {
                                                             e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary")
@@ -6123,11 +6123,11 @@
                                             },
                                             children: [(0, r.jsxs)("div", {
                                                 style: {
-                                                    backgroundColor: tH("--twc-bg3"),
-                                                    borderRadius: "16px",
+                                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                    borderRadius: "20px",
                                                     padding: "24px",
                                                     marginBottom: "16px",
-                                                    border: "1px solid ".concat(tH("--twc-line")),
+                                                    border: "1px solid rgba(174,156,255,0.18)",
                                                     textAlign: "center",
                                                     flex: 1,
                                                     display: "flex",
@@ -6148,7 +6148,7 @@
                                                             height: "56px",
                                                             borderRadius: "50%",
                                                             overflow: "hidden",
-                                                            border: "3px solid ".concat(tH("--twc-line"))
+                                                            border: "1px solid rgba(174,156,255,0.18)"
                                                         },
                                                         children: (0, r.jsx)("img", {
                                                             src: tC[eF],
@@ -6178,7 +6178,7 @@
                                                 }), (0, r.jsx)("div", {
                                                     style: {
                                                         backgroundColor: "#fff",
-                                                        borderRadius: "12px",
+                                                        borderRadius: "20px",
                                                         padding: "16px",
                                                         margin: "0 auto 20px",
                                                         width: "160px",
@@ -6186,7 +6186,7 @@
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
-                                                        border: "1px solid ".concat(tH("--twc-line"))
+                                                        border: "1px solid rgba(174,156,255,0.18)"
                                                     },
                                                     children: (0, r.jsx)("div", {
                                                         style: {
@@ -6200,11 +6200,11 @@
                                                     })
                                                 }), (0, r.jsxs)("div", {
                                                     style: {
-                                                        backgroundColor: tH("--twc-backgroundPrimary"),
-                                                        borderRadius: "12px",
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                        borderRadius: "20px",
                                                         padding: "16px",
                                                         marginBottom: "16px",
-                                                        border: "1px solid ".concat(tH("--twc-line"))
+                                                        border: "1px solid rgba(174,156,255,0.18)"
                                                     },
                                                     children: [(0, r.jsx)("p", {
                                                         style: {
@@ -6246,16 +6246,16 @@
                                                             },
                                                             style: {
                                                                 background: tH("--twc-bg3"),
-                                                                border: "1px solid ".concat(tH("--twc-line")),
+                                                                border: "1px solid rgba(174,156,255,0.18)",
                                                                 color: tH("--twc-textPrimary"),
                                                                 cursor: "pointer",
                                                                 fontSize: "14px",
                                                                 padding: "8px 12px",
-                                                                borderRadius: "8px",
+                                                                borderRadius: "18px",
                                                                 fontWeight: 600,
                                                                 width: "80px",
                                                                 height: "36px",
-                                                                transition: "all 0.2s ease",
+                                                                transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                                 display: "flex",
                                                                 alignItems: "center",
                                                                 justifyContent: "center",
@@ -6296,15 +6296,15 @@
                                                     style: {
                                                         width: "100%",
                                                         padding: "12px",
-                                                        backgroundColor: tH("--twc-bg3"),
-                                                        border: "1px solid ".concat(tH("--twc-line")),
-                                                        borderRadius: "12px",
+                                                        background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                        border: "1px solid rgba(174,156,255,0.18)",
+                                                        borderRadius: "20px",
                                                         cursor: "pointer",
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
                                                         gap: "8px",
-                                                        transition: "all 0.2s ease",
+                                                        transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                         marginTop: "8px"
                                                     },
                                                     onMouseEnter: e => {
@@ -6335,18 +6335,18 @@
                                                 style: {
                                                     width: "100%",
                                                     padding: "16px",
-                                                    backgroundColor: tH("--twc-primary"),
-                                                    color: "#000",
+                                                    background: "linear-gradient(180deg, #AB9FF2 0%, #9D8CFF 48%, #8B5CF6 100%)",
+                                                    color: "#fff",
                                                     border: "none",
-                                                    borderRadius: "12px",
+                                                    borderRadius: "999px",
                                                     fontSize: "16px",
                                                     fontWeight: 700,
                                                     cursor: "pointer",
-                                                    transition: "all 0.2s ease",
+                                                    transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
                                                     marginTop: "auto"
                                                 },
-                                                onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-primaryHover"),
-                                                onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-primary"),
+                                                onMouseEnter: e => e.currentTarget.style.filter = "brightness(1.03)",
+                                                onMouseLeave: e => e.currentTarget.style.filter = "brightness(1)",
                                                 children: "Done"
                                             })]
                                         })]
@@ -6360,7 +6360,7 @@
                                 left: 0,
                                 right: 0,
                                 bottom: 0,
-                                backgroundColor: "rgba(0,0,0,0.9)",
+                                backgroundColor: "rgba(248,247,253,0.82)",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
@@ -6371,15 +6371,15 @@
                             className: "jsx-212d2f498bea9fe5",
                             children: (0, r.jsxs)("div", {
                                 style: {
-                                    backgroundColor: tH("--twc-backgroundPrimary"),
+                                    background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                     borderRadius: "24px",
                                     width: "100%",
                                     maxWidth: "420px",
                                     height: "620px",
                                     display: "flex",
                                     flexDirection: "column",
-                                    boxShadow: "0 20px 60px rgba(0,0,0,0.5)",
-                                    border: "1px solid ".concat(tH("--twc-line"))
+                                    boxShadow: "0 24px 80px rgba(124, 58, 237, 0.12), 0 8px 24px rgba(15, 23, 42, 0.08)",
+                                    border: "1px solid rgba(174,156,255,0.18)"
                                 },
                                 children: [(0, r.jsxs)("div", {
                                     style: {
@@ -6419,7 +6419,7 @@
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "center",
-                                            transition: "all 0.2s ease"
+                                            transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)"
                                         },
                                         onMouseEnter: e => e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary"),
                                         onMouseLeave: e => e.currentTarget.style.backgroundColor = tH("--twc-bg3"),
@@ -6433,11 +6433,11 @@
                                     },
                                     children: [(0, r.jsx)("div", {
                                         style: {
-                                            backgroundColor: tH("--twc-bg3"),
-                                            borderRadius: "12px",
+                                            background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                            borderRadius: "20px",
                                             padding: "12px 16px",
                                             marginBottom: "20px",
-                                            border: "1px solid ".concat(tH("--twc-line"))
+                                            border: "1px solid rgba(174,156,255,0.18)"
                                         },
                                         children: (0, r.jsxs)("div", {
                                             style: {
@@ -6458,7 +6458,7 @@
                                                 placeholder: "Search providers",
                                                 style: {
                                                     flex: 1,
-                                                    background: "transparent",
+                                                    background: "rgba(255,255,255,0.55)",
                                                     border: "none",
                                                     color: tH("--twc-textPrimary"),
                                                     outline: "none",
@@ -6480,11 +6480,11 @@
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
                                                 padding: "16px",
-                                                borderRadius: "12px",
+                                                borderRadius: "20px",
                                                 cursor: "pointer",
-                                                backgroundColor: tH("--twc-bg3"),
-                                                transition: "all 0.2s ease",
-                                                border: "1px solid ".concat(tH("--twc-line"))
+                                                background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
+                                                transition: "filter 0.35s cubic-bezier(.22,1,.36,1), transform 0.35s cubic-bezier(.22,1,.36,1), opacity 0.35s cubic-bezier(.22,1,.36,1), box-shadow 0.35s cubic-bezier(.22,1,.36,1)",
+                                                border: "1px solid rgba(174,156,255,0.18)"
                                             },
                                             onMouseEnter: e => {
                                                 e.currentTarget.style.backgroundColor = tH("--twc-backgroundSecondary")
@@ -6505,7 +6505,7 @@
                                                     style: {
                                                         width: "48px",
                                                         height: "48px",
-                                                        borderRadius: "12px"
+                                                        borderRadius: "20px"
                                                     }
                                                 }), (0, r.jsxs)("div", {
                                                     style: {
@@ -6530,7 +6530,7 @@
                                                             style: {
                                                                 fontSize: "11px",
                                                                 padding: "2px 6px",
-                                                                backgroundColor: tH("--twc-backgroundPrimary"),
+                                                                background: "radial-gradient(circle at top, rgba(255,255,255,0.95) 0%, rgba(248,247,253,0.96) 35%, rgba(244,241,255,0.98) 100%)",
                                                                 color: tH("--twc-textSecondary"),
                                                                 borderRadius: "4px",
                                                                 fontWeight: 500,
@@ -6628,7 +6628,7 @@
                                         borderRadius: "50%",
                                         animation: "spin 1s linear infinite",
                                         margin: "0 auto 20px",
-                                        boxShadow: "0 0 30px rgba(143.9, 100, 64.1, 0.3)"
+                                        boxShadow: "0 0 30px rgba(124, 58, 237, 0.22)"
                                     },
                                     className: "jsx-212d2f498bea9fe5"
                                 }), (0, r.jsx)("p", {
